@@ -1,0 +1,56 @@
+---
+layout: layouts/base.njk
+title: Home
+---
+{% from "partials/project-card.njk" import card %}
+
+<section class="hero">
+  <div class="wrap">
+    <p class="hero-kicker"><span class="muted">$</span> whoami</p>
+    <h1 class="hero-title">{{ site.author }}</h1>
+    <p class="hero-tagline">{{ site.tagline }}</p>
+    <p class="hero-blurb">
+      I design interfaces and the systems behind them. This is where I keep my
+      case studies, the side projects I build for fun, and notes on the craft.
+    </p>
+    <div class="hero-actions">
+      <a class="btn" href="/projects/">view projects</a>
+      <a class="btn btn--ghost" href="/blog/">read the blog</a>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="wrap">
+    <div class="section-head">
+      <h2 class="section-title"><span class="muted">//</span> selected work</h2>
+      <a class="section-link" href="/projects/">all projects &rarr;</a>
+    </div>
+    <div class="project-grid">
+      {% for project in collections.projects %}
+        {% if loop.index <= 3 %}{{ card(project) }}{% endif %}
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="wrap">
+    <div class="section-head">
+      <h2 class="section-title"><span class="muted">//</span> latest writing</h2>
+      <a class="section-link" href="/blog/">all posts &rarr;</a>
+    </div>
+    <ul class="post-list">
+      {% for post in collections.posts %}
+        {% if loop.index <= 3 %}
+        <li class="post-list-item">
+          <a href="{{ post.url }}">
+            <time datetime="{{ post.date | isoDate }}">{{ post.date | readableDate }}</time>
+            <span class="post-list-title">{{ post.data.title }}</span>
+          </a>
+        </li>
+        {% endif %}
+      {% endfor %}
+    </ul>
+  </div>
+</section>

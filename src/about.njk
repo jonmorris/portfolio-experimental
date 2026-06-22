@@ -1,0 +1,40 @@
+---
+layout: layouts/base.njk
+title: About
+permalink: /about/
+---
+<section class="section section--top">
+  <div class="wrap narrow">
+    <header class="page-head">
+      <p class="hero-kicker"><span class="muted">$</span> man jonmorris</p>
+      <h1 class="page-title">About</h1>
+    </header>
+
+    <div class="prose">
+      <p>
+        I'm {{ site.author }}, a designer focused on interfaces and the systems
+        that hold them together. I like work that's equal parts considered and
+        a little bit playful.
+      </p>
+      <p>
+        This site is a living archive — client case studies sit next to the side
+        projects I build to keep learning, and the blog is where I think out loud
+        about the craft.
+      </p>
+
+      <h2>What I do</h2>
+      <ul>
+        <li>Product &amp; interface design — end to end, research to ship.</li>
+        <li>Design systems — components, tokens, and the docs that keep them honest.</li>
+        <li>Prototyping &amp; front-end — I build to understand.</li>
+      </ul>
+
+      <h2>Elsewhere</h2>
+      <ul>
+        {% for s in site.social %}
+        <li><a href="{{ s.url }}">{{ s.label }}</a></li>
+        {% endfor %}
+      </ul>
+    </div>
+  </div>
+</section>

@@ -1,0 +1,26 @@
+---
+layout: layouts/base.njk
+---
+<article class="case-study">
+  <div class="wrap narrow">
+    <a href="/projects/" class="back-link">&larr; all projects</a>
+
+    <header class="cs-header">
+      <span class="tag tag--{{ type }}">{{ "work" if type == "work" else "side project" }}</span>
+      <h1 class="cs-title">{{ title }}</h1>
+      {% if summary %}<p class="cs-summary">{{ summary }}</p>{% endif %}
+
+      <dl class="cs-meta">
+        {% if role %}<div><dt>role</dt><dd>{{ role }}</dd></div>{% endif %}
+        {% if year %}<div><dt>year</dt><dd>{{ year }}</dd></div>{% endif %}
+        {% if client %}<div><dt>client</dt><dd>{{ client }}</dd></div>{% endif %}
+        {% if tech and tech.length %}<div><dt>stack</dt><dd>{{ tech | join(", ") }}</dd></div>{% endif %}
+        {% if link %}<div><dt>link</dt><dd><a href="{{ link }}">{{ link | replace("https://", "") | replace("http://", "") }}</a></dd></div>{% endif %}
+      </dl>
+    </header>
+
+    <div class="cs-body prose">
+      {{ content | safe }}
+    </div>
+  </div>
+</article>

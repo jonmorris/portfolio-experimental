@@ -1,0 +1,22 @@
+---
+layout: layouts/base.njk
+---
+<article class="post">
+  <div class="wrap narrow">
+    <a href="/blog/" class="back-link">&larr; all posts</a>
+
+    <header class="post-header">
+      <p class="post-meta">
+        <time datetime="{{ page.date | isoDate }}">{{ page.date | readableDate }}</time>
+        <span class="muted">·</span> {{ content | readingTime }} read
+        {% if tags %}{% for t in tags %}{% if t != "post" %}<span class="muted">·</span> #{{ t }}{% endif %}{% endfor %}{% endif %}
+      </p>
+      <h1 class="post-title">{{ title }}</h1>
+      {% if summary %}<p class="post-summary">{{ summary }}</p>{% endif %}
+    </header>
+
+    <div class="post-body prose">
+      {{ content | safe }}
+    </div>
+  </div>
+</article>

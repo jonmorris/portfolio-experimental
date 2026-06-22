@@ -1,0 +1,18 @@
+{
+  "title": "Jon Morris",
+  "tagline": "Designer — interfaces, systems, and the occasional side quest.",
+  "description": "Design portfolio and blog. Case studies, side projects, and notes on craft.",
+  "url": "https://example.com",
+  "author": "Jon Morris",
+  "email": "jonmorris451@gmail.com",
+  "nav": [
+    { "label": "work", "url": "/" },
+    { "label": "projects", "url": "/projects/" },
+    { "label": "blog", "url": "/blog/" },
+    { "label": "about", "url": "/about/" }
+  ],
+  "social": [
+    { "label": "github", "url": "https://github.com/jonmorris" },
+    { "label": "email", "url": "mailto:jonmorris451@gmail.com" }
+  ]
+}

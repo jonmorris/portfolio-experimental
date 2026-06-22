@@ -1,0 +1,35 @@
+---
+layout: layouts/base.njk
+title: Projects
+description: Case studies and side projects — one feed, filter by type.
+permalink: /projects/
+---
+{% from "partials/project-card.njk" import card %}
+
+<section class="section section--top">
+  <div class="wrap">
+    <header class="page-head">
+      <p class="hero-kicker"><span class="muted">$</span> ls ./projects</p>
+      <h1 class="page-title">Projects</h1>
+      <p class="page-intro">
+        Client work and personal side projects, mixed together. Filter by type
+        if you're only after one or the other.
+      </p>
+    </header>
+
+    <div class="filter" role="group" aria-label="Filter projects by type">
+      <button class="filter-btn is-active" data-filter="all" type="button">all</button>
+      <button class="filter-btn" data-filter="work" type="button">work</button>
+      <button class="filter-btn" data-filter="side" type="button">side projects</button>
+    </div>
+
+    <div class="project-grid" id="project-grid">
+      {% for project in collections.projects %}
+        {{ card(project) }}
+      {% endfor %}
+    </div>
+    <p class="filter-empty" id="filter-empty" hidden>No projects match that filter yet.</p>
+  </div>
+</section>
+
+<script src="/js/filter.js" defer></script>

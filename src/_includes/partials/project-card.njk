@@ -1,0 +1,16 @@
+{% macro card(project) %}
+<a class="project-card" href="{{ project.url }}" data-type="{{ project.data.type }}">
+  <div class="project-card-top">
+    <span class="tag tag--{{ project.data.type }}">{{ "work" if project.data.type == "work" else "side project" }}</span>
+    {% if project.data.year %}<span class="project-year">{{ project.data.year }}</span>{% endif %}
+  </div>
+  <h3 class="project-card-title">{{ project.data.title }}</h3>
+  {% if project.data.summary %}<p class="project-card-summary">{{ project.data.summary }}</p>{% endif %}
+  {% if project.data.tech and project.data.tech.length %}
+  <ul class="project-card-tech">
+    {% for t in project.data.tech %}<li>{{ t }}</li>{% endfor %}
+  </ul>
+  {% endif %}
+  <span class="project-card-cta">read case study &rarr;</span>
+</a>
+{% endmacro %}

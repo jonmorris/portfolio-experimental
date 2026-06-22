@@ -1,0 +1,12 @@
+<footer class="site-footer">
+  <div class="wrap footer-inner">
+    <p class="footer-meta">
+      <span class="muted">// </span>{{ site.author }} — built with Eleventy. &copy; {{ build.year }}.
+    </p>
+    <ul class="footer-social">
+      {% for s in site.social %}
+        <li><a href="{{ s.url }}">{{ s.label }}</a></li>
+      {% endfor %}
+    </ul>
+  </div>
+</footer>
