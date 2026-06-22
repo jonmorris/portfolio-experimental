@@ -1,5 +1,11 @@
 // Eleventy 3.x config (ESM).
+import { HtmlBasePlugin } from "@11ty/eleventy";
+
 export default function (eleventyConfig) {
+  // Rewrites root-relative URLs (href/src) to include the pathPrefix, so the
+  // site works both at the domain root and under a subpath (GitHub Pages).
+  eleventyConfig.addPlugin(HtmlBasePlugin);
+
   // Pass static assets straight through to the build output.
   eleventyConfig.addPassthroughCopy({ "src/css": "css" });
   eleventyConfig.addPassthroughCopy({ "src/js": "js" });
