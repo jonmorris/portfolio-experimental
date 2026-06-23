@@ -1,16 +1,26 @@
 {% macro card(project) %}
 <a class="project-card" href="{{ project.url }}" data-type="{{ project.data.type }}">
-  <div class="project-card-top">
-    <span class="tag tag--{{ project.data.type }}">{{ "work" if project.data.type == "work" else "side project" }}</span>
-    {% if project.data.displayYear or project.data.year %}<span class="project-year">{{ project.data.displayYear or project.data.year }}</span>{% endif %}
+  <div class="project-card-media">
+    {% if project.data.cover %}
+    <img src="{{ project.data.cover }}" alt="" loading="lazy">
+    {% else %}
+    <span class="project-card-media-ph" aria-hidden="true">{{ project.data.name or project.data.title }}</span>
+    {% endif %}
   </div>
-  <h3 class="project-card-title">{{ project.data.title }}</h3>
-  {% if project.data.summary %}<p class="project-card-summary">{{ project.data.summary }}</p>{% endif %}
-  {% if project.data.skills and project.data.skills.length %}
-  <ul class="project-card-tech">
-    {% for t in project.data.skills %}<li>{{ t }}</li>{% endfor %}
-  </ul>
-  {% endif %}
-  <span class="project-card-cta">read case study &rarr;</span>
+  <div class="project-card-body">
+    <div class="project-card-top">
+      <span class="tag tag--{{ project.data.type }}">{{ "work" if project.data.type == "work" else "side project" }}</span>
+      {% if project.data.displayYear or project.data.year %}<span class="project-year">{{ project.data.displayYear or project.data.year }}</span>{% endif %}
+    </div>
+    {% if project.data.name %}<p class="project-card-name">{{ project.data.name }}</p>{% endif %}
+    <h3 class="project-card-title">{{ project.data.title }}</h3>
+    {% if project.data.summary %}<p class="project-card-summary">{{ project.data.summary }}</p>{% endif %}
+    {% if project.data.skills and project.data.skills.length %}
+    <ul class="project-card-tech">
+      {% for t in project.data.skills %}<li>{{ t }}</li>{% endfor %}
+    </ul>
+    {% endif %}
+    <span class="project-card-cta">read case study &rarr;</span>
+  </div>
 </a>
 {% endmacro %}

@@ -1,5 +1,7 @@
 ---
 title: "Trust and authenticity for adventure gear"
+name: "Better Trail"
+cover: "/assets/better-trail/better-trail-second-hero.png"
 type: work
 year: 2024
 role: "Senior UX Designer"

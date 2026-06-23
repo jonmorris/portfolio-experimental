@@ -311,8 +311,7 @@ main {
 .project-card {
   display: flex;
   flex-direction: column;
-  gap: 0.6rem;
-  padding: 1.35rem;
+  overflow: hidden;
   background: var(--bg-card);
   border: var(--border-w) solid var(--border);
   border-radius: var(--r);
@@ -326,6 +325,52 @@ main {
 }
 .project-card[hidden] {
   display: none;
+}
+
+/* Card media: cover image, or a monospace placeholder when none exists. */
+.project-card-media {
+  position: relative;
+  aspect-ratio: 16 / 10;
+  display: grid;
+  place-items: center;
+  overflow: hidden;
+  background: var(--bg-soft);
+  border-bottom: var(--border-w) solid var(--border);
+}
+.project-card-media img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform var(--step);
+}
+.project-card:hover .project-card-media img {
+  transform: scale(1.03);
+}
+.project-card-media-ph {
+  font-size: 1rem;
+  font-weight: 500;
+  color: var(--fg-muted);
+  padding: 1rem 1.25rem;
+  text-align: center;
+}
+.project-card-media-ph::before {
+  content: "~/ ";
+  color: var(--accent);
+}
+
+.project-card-body {
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+  padding: 1.35rem;
+  flex: 1;
+}
+.project-card-name {
+  font-size: 0.72rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--fg-muted);
+  margin: 0;
 }
 .project-card-top {
   display: flex;

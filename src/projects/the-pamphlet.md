@@ -1,5 +1,6 @@
 ---
-title: "The Pamphlet"
+title: "Useful reference information, minus the ads"
+name: "The Pamphlet"
 type: side
 year: 2026
 displayYear: "2024-2026"

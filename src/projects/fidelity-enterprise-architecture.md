@@ -1,5 +1,6 @@
 ---
 title: "Demystifying enterprise architecture"
+name: "Fidelity Enterprise Architecture"
 type: work
 year: 2026
 displayYear: "2025-2026"

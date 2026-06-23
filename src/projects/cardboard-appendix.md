@@ -1,5 +1,6 @@
 ---
 title: "Bringing board game rules into the digital age"
+name: "Cardboard Appendix"
 type: side
 year: 2026
 displayYear: "2023-2026"

@@ -1,5 +1,6 @@
 ---
 title: "The perfect 40% keyboard doesn’t exist..."
+name: "Leviathan Mech"
 type: side
 year: 2025
 displayYear: "2024-2025"

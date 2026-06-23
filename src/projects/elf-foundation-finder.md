@@ -1,5 +1,6 @@
 ---
 title: "Enabling makeup matching with AI"
+name: "E.L.F. Foundation Finder"
 type: work
 year: 2023
 role: "Senior UX Designer"
