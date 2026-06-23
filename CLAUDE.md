@@ -75,3 +75,9 @@ Quick summary (defer to CONVENTIONS.md if anything below differs):
 - Never edit, reformat, rename, move, or delete `_source/` files.
 - Use `_source/` only when explicitly authorized for the task, and only as a pull source.
 - If a request would require changing `_source/`, stop and ask for a human-authored update.
+
+---
+
+## Repository Memory
+
+Project-specific observations and patterns are tracked in `/memories/repo/portfolio-experimental.md`. I consult this file across sessions to remember project decisions, structure, and lessons learned.
