@@ -4,7 +4,7 @@ type: work
 year: 2024
 role: "Product designer"
 client: "Wayfinder (B2B SaaS)"
-tech: ["Figma", "Amplitude", "Maze", "A/B testing"]
+skills: ["Figma", "Amplitude", "Maze", "A/B testing"]
 summary: "Redesigned a 9-step signup that was leaking users at every turn, lifting activation by 34%."
 order: 2
 ---

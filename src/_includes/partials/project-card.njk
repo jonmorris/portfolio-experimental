@@ -6,9 +6,9 @@
   </div>
   <h3 class="project-card-title">{{ project.data.title }}</h3>
   {% if project.data.summary %}<p class="project-card-summary">{{ project.data.summary }}</p>{% endif %}
-  {% if project.data.tech and project.data.tech.length %}
+  {% if project.data.skills and project.data.skills.length %}
   <ul class="project-card-tech">
-    {% for t in project.data.tech %}<li>{{ t }}</li>{% endfor %}
+    {% for t in project.data.skills %}<li>{{ t }}</li>{% endfor %}
   </ul>
   {% endif %}
   <span class="project-card-cta">read case study &rarr;</span>

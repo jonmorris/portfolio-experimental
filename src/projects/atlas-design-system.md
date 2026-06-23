@@ -4,7 +4,7 @@ type: work
 year: 2025
 role: "Lead product designer"
 client: "Northwind Financial"
-tech: ["Figma", "Design tokens", "Storybook", "React"]
+skills: ["Figma", "Design tokens", "Storybook", "React"]
 summary: "Took a sprawling, inconsistent product surface and gave it a shared language — cutting design-to-ship time roughly in half."
 order: 1
 ---

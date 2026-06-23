@@ -14,7 +14,7 @@ layout: layouts/base.njk
         {% if role %}<div><dt>role</dt><dd>{{ role }}</dd></div>{% endif %}
         {% if displayYear or year %}<div><dt>year</dt><dd>{{ displayYear or year }}</dd></div>{% endif %}
         {% if client %}<div><dt>client</dt><dd>{{ client }}</dd></div>{% endif %}
-        {% if tech and tech.length %}<div><dt>stack</dt><dd>{{ tech | join(", ") }}</dd></div>{% endif %}
+        {% if skills and skills.length %}<div><dt>skills</dt><dd>{{ skills | join(", ") }}</dd></div>{% endif %}
         {% if link %}<div><dt>link</dt><dd><a href="{{ link }}">{{ link | replace("https://", "") | replace("http://", "") }}</a></dd></div>{% endif %}
       </dl>
     </header>

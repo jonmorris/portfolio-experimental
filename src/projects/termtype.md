@@ -3,7 +3,7 @@ title: "termtype — a typing trainer that lives in your terminal"
 type: side
 year: 2025
 role: "Designer & developer"
-tech: ["TypeScript", "Ink", "Node"]
+skills: ["TypeScript", "Ink", "Node"]
 link: "https://github.com/jonmorris"
 summary: "A weekend project that got out of hand: a monospace typing trainer with real-time WPM, themes, and a stats history — all in the terminal."
 order: 1
