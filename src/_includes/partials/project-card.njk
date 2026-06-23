@@ -2,7 +2,7 @@
 <a class="project-card" href="{{ project.url }}" data-type="{{ project.data.type }}">
   <div class="project-card-top">
     <span class="tag tag--{{ project.data.type }}">{{ "work" if project.data.type == "work" else "side project" }}</span>
-    {% if project.data.year %}<span class="project-year">{{ project.data.year }}</span>{% endif %}
+    {% if project.data.displayYear or project.data.year %}<span class="project-year">{{ project.data.displayYear or project.data.year }}</span>{% endif %}
   </div>
   <h3 class="project-card-title">{{ project.data.title }}</h3>
   {% if project.data.summary %}<p class="project-card-summary">{{ project.data.summary }}</p>{% endif %}

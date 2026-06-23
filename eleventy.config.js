@@ -18,8 +18,8 @@ export default function (eleventyConfig) {
     collectionApi
       .getFilteredByTag("project")
       .sort((a, b) => {
-        const ay = a.data.year || 0;
-        const by = b.data.year || 0;
+        const ay = a.data.sortYear ?? a.data.year ?? 0;
+        const by = b.data.sortYear ?? b.data.year ?? 0;
         if (by !== ay) return by - ay; // newest first
         return (a.data.order || 0) - (b.data.order || 0);
       })
