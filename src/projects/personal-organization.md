@@ -9,6 +9,6 @@ summary: "A super personal task management, calendars, and plans project with AI
 order: 2
 ---
 
-## Summary:
+## What it is
 
 A super personal task management, calendars, and plans project with AI for myself.

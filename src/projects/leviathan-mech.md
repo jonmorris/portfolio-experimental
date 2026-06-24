@@ -11,26 +11,14 @@ summary: "I brought a premium split 40% mechanical keyboard to market, leading t
 order: 0
 ---
 
-## Summary:
+## Why I built it
 
-I brought a premium split 40% mechanical keyboard to market, leading the product from concept through production. The project focused on delivering a split, high-quality board designed for enthusiasts who value efficiency, ergonomics, and craftsmanship.
+Getting into the mechanical keyboard hobby has been a creative outlet over the past few years. After building more than ten boards, I learned what I enjoyed most and noticed there was still something missing. The keyboard I wanted didn't exist, so I collected my ideas together and started the journey of designing and building my own.
 
-## Role:
+## How I built it
 
-Product Designer
+I moved from sketches and CAD models into several prototype iterations, refining the layout, mounting system, and overall typing feel. Once the design was finalized, I ran multiple production batches of the board and also created a 3D-printed version as a lower-cost option. Both versions were well-received in the community, and I sold units to other keyboard enthusiasts.
 
-## Skills:
+## What I learned
 
-- Product Strategy
-- UX Design
-- Industrial Design
-- User Testing / Research
-- Prototyping
-- Marketing
-- E-commerce Logistics
-
-## Design Team:
-
-- Myself
-- PCB Designer
-- CAD Designer
+The process taught me the complexities of bringing a physical product to market, from design decisions to manufacturing logistics, and resulted in a board that I'm proud to see in the hands of others.

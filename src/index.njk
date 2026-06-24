@@ -54,3 +54,48 @@ title: Home
     </ul>
   </div>
 </section>
+
+<section class="section">
+  <div class="wrap">
+    <div class="section-head">
+      <h2 class="section-title"><span class="muted">//</span> about</h2>
+    </div>
+
+    <div class="home-about">
+      <p>
+        The friction worth fixing is usually in the unglamorous parts of a
+        product: admin tools, CMS workflows, and internal product flows that
+        never make the hero section of a case study. That is where I do my
+        best work, and where most teams have the most to gain.
+      </p>
+      <p>
+        When I am not designing, I am tinkering with mechanical keyboards,
+        playing too many board games, or experimenting in the kitchen.
+      </p>
+      <p>
+        Always open to a good conversation about what's next.
+        <a href="mailto:hello@jon-morris.com">Email me</a>.
+      </p>
+    </div>
+
+    <div class="home-panels">
+      <article class="home-panel">
+        <h3 class="home-panel-title">clients I've worked with</h3>
+        <ul class="home-list home-list--clients">
+          {% for client in site.clients %}
+          <li>{{ client }}</li>
+          {% endfor %}
+        </ul>
+      </article>
+
+      <article class="home-panel">
+        <h3 class="home-panel-title">capabilities</h3>
+        <ul class="home-list">
+          {% for capability in site.capabilities %}
+          <li>{{ capability }}</li>
+          {% endfor %}
+        </ul>
+      </article>
+    </div>
+  </div>
+</section>
