@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 720" width="1000" height="720" role="img">
+  <rect width="1000" height="720" fill="#12151a"/>
+  <rect x="6" y="6" width="988" height="708" fill="none" stroke="#232a33" stroke-width="2"/>
+  <text x="500" y="60" font-family="ui-monospace, 'JetBrains Mono', Menlo, Consolas, monospace" font-size="26" font-weight="400" fill="#8b94a3" text-anchor="middle">MOBILE MOCKUPS — device frames</text>
+   <rect x="120" y="140" width="230" height="470" rx="28" fill="#0b0d10" stroke="#232a33" stroke-width="3"/>
+  <rect x="200" y="158" width="70" height="10" rx="5" fill="#232a33"/>
+  <rect x="144" y="200" width="127.39999999999999" height="14" rx="4" fill="#232a33"/><rect x="144" y="234" width="168.35" height="14" rx="4" fill="#232a33"/><rect x="144" y="268" width="154.7" height="14" rx="4" fill="#232a33"/><rect x="144" y="302" width="141.04999999999998" height="14" rx="4" fill="#232a33"/><rect x="144" y="336" width="127.39999999999999" height="14" rx="4" fill="#232a33"/><rect x="144" y="370" width="100.10000000000001" height="14" rx="4" fill="#232a33"/>
+  <rect x="144" y="420" width="182" height="150" rx="8" fill="#12151a" stroke="#232a33" stroke-width="2"/>
+  <text x="235" y="660" font-family="ui-monospace, 'JetBrains Mono', Menlo, Consolas, monospace" font-size="20" font-weight="400" fill="#8b94a3" text-anchor="middle">onboarding</text><rect x="390" y="140" width="230" height="470" rx="28" fill="#0b0d10" stroke="#232a33" stroke-width="3"/>
+  <rect x="470" y="158" width="70" height="10" rx="5" fill="#232a33"/>
+  <rect x="414" y="200" width="127.39999999999999" height="14" rx="4" fill="#232a33"/><rect x="414" y="234" width="168.35" height="14" rx="4" fill="#232a33"/><rect x="414" y="268" width="154.7" height="14" rx="4" fill="#232a33"/><rect x="414" y="302" width="141.04999999999998" height="14" rx="4" fill="#232a33"/><rect x="414" y="336" width="127.39999999999999" height="14" rx="4" fill="#232a33"/><rect x="414" y="370" width="100.10000000000001" height="14" rx="4" fill="#232a33"/>
+  <rect x="414" y="420" width="182" height="150" rx="8" fill="#12151a" stroke="#232a33" stroke-width="2"/>
+  <text x="505" y="660" font-family="ui-monospace, 'JetBrains Mono', Menlo, Consolas, monospace" font-size="20" font-weight="400" fill="#8b94a3" text-anchor="middle">home</text><rect x="660" y="140" width="230" height="470" rx="28" fill="#0b0d10" stroke="#232a33" stroke-width="3"/>
+  <rect x="740" y="158" width="70" height="10" rx="5" fill="#232a33"/>
+  <rect x="684" y="200" width="127.39999999999999" height="14" rx="4" fill="#232a33"/><rect x="684" y="234" width="168.35" height="14" rx="4" fill="#232a33"/><rect x="684" y="268" width="154.7" height="14" rx="4" fill="#232a33"/><rect x="684" y="302" width="141.04999999999998" height="14" rx="4" fill="#232a33"/><rect x="684" y="336" width="127.39999999999999" height="14" rx="4" fill="#232a33"/><rect x="684" y="370" width="100.10000000000001" height="14" rx="4" fill="#232a33"/>
+  <rect x="684" y="420" width="182" height="150" rx="8" fill="#12151a" stroke="#232a33" stroke-width="2"/>
+  <text x="775" y="660" font-family="ui-monospace, 'JetBrains Mono', Menlo, Consolas, monospace" font-size="20" font-weight="400" fill="#8b94a3" text-anchor="middle">detail</text>
+</svg>
