@@ -1,5 +1,5 @@
 ---
-title: "Useful reference information, minus the ads"
+title: "Exactly the answer you came for"
 name: "The Pamphlet"
 type: side
 year: 2026
