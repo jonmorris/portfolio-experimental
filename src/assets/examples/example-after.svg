@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 760" width="1000" height="760" role="img">
+  <rect width="1000" height="760" fill="#12151a"/>
+  <rect x="6" y="6" width="988" height="748" fill="none" stroke="#232a33" stroke-width="2"/>
+  <rect x="40" y="40" width="120" height="40" rx="20" fill="none" stroke="#5eead4" stroke-width="2"/>
+   <text x="100" y="67" font-family="ui-monospace, 'JetBrains Mono', Menlo, Consolas, monospace" font-size="22" font-weight="400" fill="#5eead4" text-anchor="middle">AFTER</text>
+   <rect x="60" y="140" width="616" height="14" rx="4" fill="#232a33"/><rect x="60" y="186" width="813.9999999999999" height="14" rx="4" fill="#232a33"/><rect x="60" y="232" width="748" height="14" rx="4" fill="#232a33"/><rect x="60" y="278" width="484.00000000000006" height="14" rx="4" fill="#232a33"/>
+   <rect x="60" y="350" width="880" height="340" rx="8" fill="#0b0d10" stroke="#232a33" stroke-width="2"/>
+   <text x="500" y="530" font-family="ui-monospace, 'JetBrains Mono', Menlo, Consolas, monospace" font-size="30" font-weight="400" fill="#8b94a3" text-anchor="middle">new layout</text>
+</svg>
