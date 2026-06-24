@@ -1,5 +1,5 @@
 ---
-title: "A personal operating system, built with AI"
+title: "Micro-apps for how I actually work, built with AI"
 name: "Personal Organization"
 type: side
 summary: "A super personal task management, calendars, and plans project with AI for myself."
