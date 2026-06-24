@@ -1,0 +1,65 @@
+{# Shared case-study body used by all three layout variations, so the only
+   thing that differs between them is the layout/styling — not the content. #}
+
+<figure class="cs-figure cs-figure--wide cs-figure--hero">
+  <img src="/assets/examples/example-fullbleed.svg" alt="The redesigned Meridian scheduling flow across desktop and mobile">
+  <figcaption>The shipped booking flow — the one shot that shows what changed.</figcaption>
+</figure>
+
+<h2>Overview</h2>
+<p>Meridian's online scheduler made patients call the office more often than it saved them a call. I led the redesign of the booking flow, cutting completion time roughly in half and dropping scheduling-related support calls by a third.</p>
+
+<h2>Problem</h2>
+<p>Patients abandoned the flow at the "choose a time" step. The calendar showed every slot for every provider at once, with no way to filter by location or insurance, so people gave up and phoned the front desk — the exact outcome the tool was meant to prevent.</p>
+
+<h2>Goals &amp; constraints</h2>
+<ul>
+  <li><strong>Goal:</strong> reduce booking-flow abandonment and scheduling support calls.</li>
+  <li><strong>Constraint:</strong> the underlying EHR API couldn't change; we designed around its existing slot data.</li>
+  <li><strong>Constraint:</strong> launch had to meet WCAG AA — it's a healthcare product.</li>
+</ul>
+
+<h2>Research</h2>
+<p>Five booking sessions made the core insight obvious: people think in terms of <em>"the soonest appointment near me,"</em> not <em>"provider, then date, then time."</em> The flow was organized backwards from how patients reasoned about it.</p>
+
+<figure class="cs-figure">
+  <img src="/assets/examples/example-process.svg" alt="Research-to-test loop: research, sketch, wireframe, test, repeat">
+  <figcaption>The loop the team ran each sprint.</figcaption>
+</figure>
+
+<h2>Process &amp; design decisions</h2>
+<p>We inverted the flow to lead with location and "soonest available," and deferred provider selection to the end for the patients who cared about it. A reusable date-and-time component replaced the wall-of-slots calendar.</p>
+
+<figure class="cs-figure">
+  <img src="/assets/examples/example-wireframe.svg" alt="Annotated wireframe of the reordered booking flow with three numbered callouts">
+  <figcaption>Callouts: (1) lead with location filter, (2) surface the soonest slot, (3) defer provider choice — the reordering that fixed the drop-off.</figcaption>
+</figure>
+
+<h2>Final solution</h2>
+<p>The shipped experience: a filter-first flow with the soonest appointment surfaced up top, and a confirmation step that sets a reminder in one tap.</p>
+
+<figure class="cs-figure cs-figure--two-up">
+  <div class="cs-figure__pair">
+    <img src="/assets/examples/example-mobile.svg" alt="Mobile booking flow: filter, available times, confirm">
+    <img src="/assets/examples/example-mobile.svg" alt="Mobile confirmation and reminder screens">
+  </div>
+  <figcaption>The mobile flow at a glance.</figcaption>
+</figure>
+
+<h2>Outcomes &amp; impact</h2>
+<ul class="cs-metrics">
+  <li class="cs-metrics__item"><span class="cs-metrics__num">−50%</span> median booking time (≈4 min → ≈2 min)</li>
+  <li class="cs-metrics__item"><span class="cs-metrics__num">−33%</span> scheduling support calls, first quarter</li>
+  <li class="cs-metrics__item"><span class="cs-metrics__num">+23pt</span> flow completion (58% → 81%)</li>
+</ul>
+
+<figure class="cs-figure cs-figure--two-up">
+  <div class="cs-figure__pair">
+    <img src="/assets/examples/example-before.svg" alt="Before: the original all-slots calendar">
+    <img src="/assets/examples/example-after.svg" alt="After: the filtered, soonest-first booking flow">
+  </div>
+  <figcaption>Before / after — the redesign next to what it replaced.</figcaption>
+</figure>
+
+<h2>Reflection</h2>
+<p>If I ran it again I'd usability-test the insurance filter earlier — it tested well late but nearly shipped in a confusing spot. Next up: applying the same "soonest near me" pattern to rescheduling.</p>

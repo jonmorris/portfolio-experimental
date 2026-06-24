@@ -693,6 +693,192 @@ main {
   }
 }
 
+/* Outcome metric cards (shared by all variations). */
+.cs-metrics {
+  list-style: none;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+}
+.cs-metrics__item {
+  border: var(--border-w) solid var(--border);
+  border-radius: var(--r);
+  background: var(--bg-soft);
+  padding: 1rem;
+  font-size: 0.8rem;
+  color: var(--fg-muted);
+}
+.cs-metrics__num {
+  display: block;
+  font-size: 1.7rem;
+  font-weight: 700;
+  color: var(--accent);
+  margin-bottom: 0.25rem;
+}
+@media (max-width: 38rem) {
+  .cs-metrics {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* ==========================================================================
+   Case-study LAYOUT VARIATIONS (prototype comparison)
+   Same markup + content; the .csv--{variation} class drives the treatment.
+   ========================================================================== */
+.csv .back-link {
+  display: inline-block;
+  margin-bottom: 1.5rem;
+}
+.csv-variant-label {
+  display: inline-block;
+  font-size: 0.7rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--accent);
+  border: var(--border-w) solid var(--border);
+  border-radius: 999px;
+  padding: 0.15rem 0.6rem;
+  margin-bottom: 0.75rem;
+}
+.csv-header .tag {
+  margin-left: 0.5rem;
+}
+.csv-name {
+  color: var(--fg-muted);
+  font-size: 0.9rem;
+  margin: 0.75rem 0 0;
+}
+.csv-title {
+  font-size: 1.9rem;
+  margin: 0.4rem 0 0;
+}
+.csv-summary {
+  color: var(--fg-muted);
+  margin-top: 0.75rem;
+}
+.csv-meta dl {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem 1.75rem;
+  margin: 0;
+  padding-block: 1rem;
+  border-block: var(--border-w) solid var(--border);
+}
+.csv-meta dt {
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--fg-muted);
+}
+.csv-meta dd {
+  margin: 0.15rem 0 0;
+  font-size: 0.85rem;
+}
+.cs-figure--hero img {
+  aspect-ratio: 16 / 7;
+  object-fit: cover;
+}
+
+/* --- 01 Narrative: one narrow editorial column --------------------------- */
+.csv--narrative .csv-shell {
+  max-width: var(--max-narrow);
+  margin-inline: auto;
+}
+
+/* --- 02 Visual-first: wide canvas, big imagery, narrow text -------------- */
+.csv--visual .csv-shell {
+  max-width: var(--max);
+  margin-inline: auto;
+}
+.csv--visual .csv-title {
+  font-size: clamp(2rem, 5vw, 3rem);
+}
+.csv--visual .csv-header,
+.csv--visual .csv-meta,
+.csv--visual .csv-body {
+  max-width: 62ch;
+  margin-inline: auto;
+}
+.csv--visual .csv-body .cs-figure {
+  margin-block: 3.5rem;
+}
+/* Plain figures break out wider; wide/hero figures fill the canvas. */
+.csv--visual .csv-body .cs-figure:not(.cs-figure--two-up) {
+  width: min(var(--max), 92vw);
+  margin-inline: 50%;
+  transform: translateX(-50%);
+}
+.csv--visual .cs-figure--hero img {
+  aspect-ratio: 16 / 6;
+}
+
+/* --- 03 Snapshot: sticky meta sidebar + scannable body ------------------- */
+.csv--snapshot .csv-shell {
+  max-width: 64rem;
+  margin-inline: auto;
+}
+@media (min-width: 64rem) {
+  .csv--snapshot .csv-shell {
+    display: grid;
+    grid-template-columns: 16rem 1fr;
+    grid-template-areas:
+      "head head"
+      "meta body";
+    column-gap: 3rem;
+  }
+  .csv--snapshot .csv-header {
+    grid-area: head;
+  }
+  .csv--snapshot .csv-meta {
+    grid-area: meta;
+  }
+  .csv--snapshot .csv-body {
+    grid-area: body;
+    min-width: 0;
+  }
+  .csv--snapshot .csv-meta {
+    position: sticky;
+    top: 1.5rem;
+    align-self: start;
+  }
+  .csv--snapshot .csv-meta dl {
+    flex-direction: column;
+    gap: 1rem;
+    border: var(--border-w) solid var(--border);
+    border-radius: var(--r);
+    background: var(--bg-soft);
+    padding: 1.25rem;
+  }
+}
+.csv--snapshot .csv-body .prose h2,
+.csv--snapshot .csv-body.prose h2 {
+  margin-top: 1.75rem;
+}
+
+/* --- Variations index page ----------------------------------------------- */
+.csv-index-list {
+  list-style: none;
+  padding: 0;
+  margin-top: 2rem;
+  display: grid;
+  gap: 1.25rem;
+}
+.csv-index-list li {
+  border: var(--border-w) solid var(--border);
+  border-radius: var(--r);
+  padding: 1.25rem 1.5rem;
+}
+.csv-index-list a {
+  font-weight: 700;
+  font-size: 1.05rem;
+}
+.csv-index-list p {
+  color: var(--fg-muted);
+  font-size: 0.85rem;
+  margin: 0.5rem 0 0;
+}
+
 /* --- Footer --------------------------------------------------------------- */
 .site-footer {
   flex-shrink: 0;

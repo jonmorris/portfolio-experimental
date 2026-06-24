@@ -1,0 +1,31 @@
+---
+layout: layouts/base.njk
+---
+<article class="csv csv--{{ variation }}">
+  <div class="wrap">
+    <a href="/examples/variations/" class="back-link">&larr; compare variations</a>
+
+    <div class="csv-shell">
+      <header class="csv-header">
+        <span class="csv-variant-label">variation: {{ variation }}</span>
+        <span class="tag tag--{{ type }}">{{ "work" if type == "work" else "side project" }}</span>
+        {% if name %}<p class="csv-name">{{ name }}</p>{% endif %}
+        <h1 class="csv-title">{{ title }}</h1>
+        {% if summary %}<p class="csv-summary">{{ summary }}</p>{% endif %}
+      </header>
+
+      <aside class="csv-meta">
+        <dl>
+          {% if role %}<div><dt>role</dt><dd>{{ role }}</dd></div>{% endif %}
+          {% if year %}<div><dt>year</dt><dd>{{ year }}</dd></div>{% endif %}
+          {% if client %}<div><dt>client</dt><dd>{{ client }}</dd></div>{% endif %}
+          {% if skills and skills.length %}<div><dt>skills</dt><dd>{{ skills | join(", ") }}</dd></div>{% endif %}
+        </dl>
+      </aside>
+
+      <div class="csv-body prose">
+        {{ content | safe }}
+      </div>
+    </div>
+  </div>
+</article>
