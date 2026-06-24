@@ -7,6 +7,7 @@ layout: layouts/base.njk
 
     <header class="cs-header">
       <span class="tag tag--{{ type }}">{{ "work" if type == "work" else "side project" }}</span>
+      {% if name %}<p class="cs-name">{{ name }}</p>{% endif %}
       <h1 class="cs-title">{{ title }}</h1>
       {% if summary %}<p class="cs-summary">{{ summary }}</p>{% endif %}
 

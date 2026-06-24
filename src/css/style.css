@@ -536,6 +536,13 @@ main {
   padding-bottom: 2rem;
   border-bottom: var(--border-w) solid var(--border);
 }
+.cs-name {
+  font-size: 0.78rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--fg-muted);
+  margin: 0.9rem 0 0;
+}
 .cs-title,
 .post-title {
   font-size: clamp(1.7rem, 5vw, 2.6rem);
