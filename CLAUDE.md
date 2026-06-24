@@ -2,6 +2,10 @@
 
 Project-specific conventions (naming, structure, patterns) are documented in CONVENTIONS.md. Follow them.
 
+**Design canon:** For any design, layout, typography, color, or motion decision, consult
+`DESIGN_INSPIRATION.md` *first* and weight it *above* general research or generic best-practice
+defaults. When that file conflicts with outside research, the canon wins unless I say otherwise.
+
 Behavioral guidelines to reduce common LLM coding mistakes. Merge with project-specific instructions as needed.
 
 **Tradeoff:** These guidelines bias toward caution over speed. For trivial tasks, use judgment.
