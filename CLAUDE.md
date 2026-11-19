@@ -82,6 +82,23 @@ Quick summary (defer to CONVENTIONS.md if anything below differs):
 
 ---
 
+## Running records
+
+`docs/DECISION-LOG.md` and `docs/CASE-STUDY.md` are repo-only indexes over the
+other docs (never built or shipped). Keep them current *in the same commit* as
+the work:
+
+- **When a change makes a decision**, add a decision-log entry — always a **new
+  file** in `docs/decision-log/` named `YYYY-MM-DD-short-name.md` with one table
+  row, **never an edit to the table** in `docs/DECISION-LOG.md`. The reasoning
+  goes in a real doc (usually `docs/DECISIONS.md`); the row's Ref points to it.
+  On the default branch, `npm run decision-log -- --fold` folds pending entries
+  into the table. `npm run decision-log` validates and lists them.
+- **When a change is worth telling**, add or amend a `docs/CASE-STUDY.md` module
+  and add a row to its *Log of additions*.
+- `npm test` validates every decision-log entry (plus the tooling), so a
+  malformed entry fails CI.
+
 ## Repository Memory
 
 Project-specific observations and patterns are tracked in `/memories/repo/portfolio-experimental.md`. I consult this file across sessions to remember project decisions, structure, and lessons learned.
