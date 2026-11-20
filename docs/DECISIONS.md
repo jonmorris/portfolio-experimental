@@ -31,3 +31,12 @@ captured, but stay off the live site until finished. A draft sets
 frontmatter; publishing is deleting those two lines. This keeps ideas,
 summaries, and working notes under version control (and reviewable in a PR)
 without a separate drafts system or a risk of shipping half-written posts.
+
+## Pre-launch noindex
+
+The GitHub Pages preview is public, but the site isn't launched yet, so every
+page carries `<meta name="robots" content="noindex">` from `base.njk`. A meta
+tag rather than `robots.txt` because a project site lives under
+`jonmorris.github.io/portfolio-experimental/` and crawlers only read
+`robots.txt` at the domain root — and a `Disallow` would stop Google from ever
+seeing the `noindex`. Launching means deleting that one line.
