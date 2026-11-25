@@ -1,1 +1,0 @@
-| 2026-11-19 | Process | Adopt a decision log (file-per-entry, folded on main) and a running case study as repo-only records | CLAUDE.md → Running records; docs/DECISION-LOG.md → How to keep this file |

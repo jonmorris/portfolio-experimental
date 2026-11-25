@@ -84,20 +84,30 @@ Quick summary (defer to CONVENTIONS.md if anything below differs):
 
 ## Running records
 
-`docs/DECISION-LOG.md` and `docs/CASE-STUDY.md` are repo-only indexes over the
-other docs (never built or shipped). Keep them current *in the same commit* as
-the work:
+`docs/adr/` and `docs/CASE-STUDY.md` are repo-only records (never built or
+shipped). Keep them current *in the same commit* as the work:
 
-- **When a change makes a decision**, add a decision-log entry — always a **new
-  file** in `docs/decision-log/` named `YYYY-MM-DD-short-name.md` with one table
-  row, **never an edit to the table** in `docs/DECISION-LOG.md`. The reasoning
-  goes in a real doc (usually `docs/DECISIONS.md`); the row's Ref points to it.
-  On the default branch, `npm run decision-log -- --fold` folds pending entries
-  into the table. `npm run decision-log` validates and lists them.
+- **When a change makes a decision worth recording**, add an ADR to `docs/adr/`
+  in the format in `.claude/skills/domain-modeling/ADR-FORMAT.md` (next number,
+  `NNNN-slug.md`). Only for decisions that are hard to reverse, surprising
+  without context, and a real tradeoff. A reversed decision gets a new ADR that
+  marks the old one superseded. See `docs/agents/domain.md`.
 - **When a change is worth telling**, add or amend a `docs/CASE-STUDY.md` module
   and add a row to its *Log of additions*.
-- `npm test` validates every decision-log entry (plus the tooling), so a
-  malformed entry fails CI.
+
+## Agent skills
+
+### Issue tracker
+
+GitHub Issues on `jonmorris/portfolio-experimental`. See `docs/agents/issue-tracker.md`.
+
+### Triage labels
+
+Default vocabulary: `needs-triage`, `needs-info`, `ready-for-agent`, `ready-for-human`, `wontfix`. See `docs/agents/triage-labels.md`.
+
+### Domain docs
+
+Single-context: root `GLOSSARY.md` + `docs/adr/`. See `docs/agents/domain.md`.
 
 ## Repository Memory
 

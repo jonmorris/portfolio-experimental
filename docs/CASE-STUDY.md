@@ -1,8 +1,8 @@
 # Case study — portfolio-experimental
 
 A running, modular case study for the portfolio & blog project itself. It's a
-repo-only document (never built or shipped) and the place where the facts in
-`docs/DECISION-LOG.md` become a story you can lift into a written case study.
+repo-only document (never built or shipped) and the place where the decisions in
+`docs/adr/` become a story you can lift into a written case study.
 
 ## How this file works
 
@@ -14,7 +14,7 @@ repo-only document (never built or shipped) and the place where the facts in
   - *Evidence:* what to show beside the text. `[ ]` marks evidence not yet
     captured; `[x]` marks it ready.
 - **Running.** When work is worth telling, add or amend a module **and** a row in
-  *Log of additions*. Facts and dates come from `docs/DECISION-LOG.md`; this file
+  *Log of additions*. Facts and dates come from `docs/adr/`; this file
   is where they become a narrative.
 - **Placeholders.** `[[double brackets]]` mark things only the owner can fill in
   (role, tools, metrics, reflections). Never invent those.
@@ -62,7 +62,7 @@ Rather than wall off "serious" work from side projects, the site reframes the
 portfolio as **one feed**: work and side projects share a collection and a card
 model, distinguished only by a `type` tag the reader can filter. The argument is
 that the breadth *is* the point, so the structure should show it rather than hide
-it. (DECISION-LOG: unified tagged feed, 2026-06-22.)
+it. (ADR-0003.)
 
 ## 4. Key decisions & trade-offs
 
@@ -70,12 +70,12 @@ it. (DECISION-LOG: unified tagged feed, 2026-06-22.)
 
 - **Static site, Markdown in git.** No backend, accounts, or authoring UI —
   simplest thing that ships and stays maintainable. Trade-off: authoring is
-  text-file-and-commit, not a CMS. (DECISION-LOG: Engineering, 2026-06-22.)
+  text-file-and-commit, not a CMS. (ADR-0001.)
 - **One content model for every project.** A fixed frontmatter snapshot and a
   five-skill cap keep the feed uniform and force a real choice about what each
-  project demonstrates. (docs/DECISIONS.md → Content model.)
+  project demonstrates. (ADR-0005, ADR-0007.)
 - **No build step for CSS/JS.** Vanilla throughout; JS added only when a real
-  behavior needs it (theme toggle, project filter). (CONVENTIONS.md.)
+  behavior needs it (theme toggle, project filter). (ADR-0010, ADR-0011.)
 - **Monospace, techie, content-first.** The aesthetic is a deliberate signal, not
   a default. (DESIGN_INSPIRATION.md.)
 
@@ -86,30 +86,29 @@ it. (DECISION-LOG: unified tagged feed, 2026-06-22.)
 Design, layout, typography, color, and motion decisions are weighed against a
 written canon (`DESIGN_INSPIRATION.md`) *before* generic best practice — the
 canon wins on conflict unless overridden. This keeps the look coherent as the
-site grows. (DECISION-LOG: Process, 2026-06-24.) [[Which designers/principles in
+site grows. (ADR-0008.) [[Which designers/principles in
 the canon mattered most, and why?]]
 
 ## 6. Working method
 
-*Core — Evidence: [ ] a PR showing the draft→review→merge flow; [ ] the decision-log folder*
+*Core — Evidence: [ ] a PR showing the draft→review→merge flow; [ ] the `docs/adr/` folder*
 
 Two habits make the project legible over time:
 
 - **Blog ideas as versioned drafts.** Ideas land as real Markdown files with
   `permalink: false` so they're captured, reviewable in a PR, and never shipped
-  half-written; publishing is deleting two lines. (docs/DECISIONS.md → Blog draft
-  workflow.)
-- **Decisions recorded as they're made.** A file-per-entry decision log, folded
-  into one index on main, keeps the "why" close to the work. (This document's
-  sibling, `docs/DECISION-LOG.md`.)
+  half-written; publishing is deleting two lines. (ADR-0006.)
+- **Decisions recorded as they're made.** Short, numbered ADRs in `docs/adr/`
+  keep the "why" close to the work. (ADR-0016; it started as a decision-log
+  table, ADR-0013, and moved to ADRs so the agent skills could read it.)
 
 ## 7. Saying no, on the record
 
 *Optional [long form] — Evidence: [ ] the "Out of Scope" / deferred notes*
 
 Deliberately deferred, and written down so the absences are choices, not gaps:
-no accounts, comments, or authoring UI; no speculative JavaScript. (DECISION-LOG:
-Deferred, 2026-06-24; CONVENTIONS.md → Out of Scope.) [[Anything else you
+no accounts, comments, or authoring UI; no speculative JavaScript. (ADR-0012;
+CONVENTIONS.md → Out of Scope.) [[Anything else you
 consciously left out?]]
 
 ## 8. Outcome & reflection
@@ -138,3 +137,4 @@ was entirely written with AI. Is that good?"*
 | Date | Module | Change |
 |------|--------|--------|
 | 2026-11-19 | all | Initial draft from repo history and docs |
+| 2026-11-25 | all, 6 | References moved from the decision log to ADRs; module 6 retold |
