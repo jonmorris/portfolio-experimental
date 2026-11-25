@@ -88,7 +88,7 @@ Quick summary (defer to CONVENTIONS.md if anything below differs):
 shipped). Keep them current *in the same commit* as the work:
 
 - **When a change makes a decision worth recording**, add an ADR to `docs/adr/`
-  in the format in `.claude/skills/domain-modeling/ADR-FORMAT.md` (next number,
+  in the format in the `domain-modeling` skill's `ADR-FORMAT.md` (mattpocock-skills plugin) (next number,
   `NNNN-slug.md`). Only for decisions that are hard to reverse, surprising
   without context, and a real tradeoff. A reversed decision gets a new ADR that
   marks the old one superseded. See `docs/agents/domain.md`.

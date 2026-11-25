@@ -6,4 +6,4 @@ Decisions are now recorded as numbered ADRs in `docs/adr/`, the format the vendo
 
 ## Consequences
 
-ADRs are offered sparingly: only for decisions that are hard to reverse, surprising without context, and the result of a real tradeoff (`.claude/skills/domain-modeling/ADR-FORMAT.md`). Small, easily reversed calls no longer get a record.
+ADRs are offered sparingly: only for decisions that are hard to reverse, surprising without context, and the result of a real tradeoff (the `domain-modeling` skill's `ADR-FORMAT.md` (mattpocock-skills plugin)). Small, easily reversed calls no longer get a record.
