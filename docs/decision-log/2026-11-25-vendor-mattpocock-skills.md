@@ -1,0 +1,1 @@
+| 2026-11-25 | Engineering | Vendor mattpocock/skills' 27-skill Claude Code plugin set into `.claude/skills/` | docs/DECISIONS.md → Vendored agent skills (mattpocock/skills); .claude/skills/README.md |

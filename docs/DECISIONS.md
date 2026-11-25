@@ -40,3 +40,13 @@ tag rather than `robots.txt` because a project site lives under
 `jonmorris.github.io/portfolio-experimental/` and crawlers only read
 `robots.txt` at the domain root — and a `Disallow` would stop Google from ever
 seeing the `noindex`. Launching means deleting that one line.
+
+## Vendored agent skills (mattpocock/skills)
+
+The 27 skills from mattpocock/skills' Claude Code plugin are copied verbatim
+into `.claude/skills/` instead of installed as a user-level plugin. A copy
+inside the repo travels with it, so every session (cloud ones included) gets
+the same skills with nothing to install, and an update shows up as a normal
+diff. The tradeoff is manual updates. The `misc/` bucket (frozen upstream) and
+`in-progress/` bucket are left out. Provenance, license and update steps are in
+`.claude/skills/README.md`.
