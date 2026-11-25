@@ -1,3 +1,7 @@
+---
+status: superseded by ADR-0017
+---
+
 # Vendor mattpocock/skills into the repo
 
 _Decided 2026-11-25._
