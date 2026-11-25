@@ -70,18 +70,6 @@ Strong success criteria let you loop independently. Weak criteria ("make it work
 
 **These guidelines are working if:** fewer unnecessary changes in diffs, fewer rewrites due to overcomplication, and clarifying questions come before implementation rather than after mistakes.
 
-## `_Source/` File Process
-
-`_source/` files are strictly read-only. The canonical rules live in `CONVENTIONS.md` → "Source file handling (`_source/`)". Read those before touching anything under `src/games/**/_source/`.
-
-Quick summary (defer to CONVENTIONS.md if anything below differs):
-
-- Never edit, reformat, rename, move, or delete `_source/` files.
-- Use `_source/` only when explicitly authorized for the task, and only as a pull source.
-- If a request would require changing `_source/`, stop and ask for a human-authored update.
-
----
-
 ## Running records
 
 `docs/adr/` and `docs/CASE-STUDY.md` are repo-only records (never built or
@@ -108,7 +96,3 @@ Default vocabulary: `needs-triage`, `needs-info`, `ready-for-agent`, `ready-for-
 ### Domain docs
 
 Single-context: root `GLOSSARY.md` + `docs/adr/`. See `docs/agents/domain.md`.
-
-## Repository Memory
-
-Project-specific observations and patterns are tracked in `/memories/repo/portfolio-experimental.md`. I consult this file across sessions to remember project decisions, structure, and lessons learned.
