@@ -8,8 +8,7 @@
     "dev": "eleventy --serve",
     "build": "eleventy",
     "clean": "rm -rf _site",
-    "test": "node --test",
-    "decision-log": "node scripts/decision-log.mjs"
+    "test": "node --test"
   },
   "license": "MIT",
   "devDependencies": {

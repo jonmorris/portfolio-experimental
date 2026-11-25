@@ -15,6 +15,6 @@ jobs:
         with:
           node-version: 20
 
-      # Unit tests + validation of every docs/decision-log/ entry.
-      # Uses only Node built-ins, so no install step is needed.
+      # Node's built-in test runner; no install step is needed.
+      # (No test files at the moment, so this passes trivially.)
       - run: npm test
