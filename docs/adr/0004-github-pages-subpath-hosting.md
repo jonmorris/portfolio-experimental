@@ -1,3 +1,7 @@
+---
+status: superseded by ADR-0018
+---
+
 # Host on GitHub Pages, under a subpath
 
 _Decided 2026-06-22._
