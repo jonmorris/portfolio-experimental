@@ -78,7 +78,7 @@ From `jon-morris.com/delete/resume.php` (an archived page), employers before the
 | Arkwright Development Tile Tool | Own project | [[?]] | [[?]] | [[?]] (GitHub repo name only; Arkwright is a board game.) | GitHub: `Arkwright-Development-Tile-Tool` | no |
 | Board game designs | Own project | [[?]] | [[?]] | Titles listed in a site data file: Burgundy, Plowed, Sausages, Sushi Chef, Mini 4X. No pages exist at their paths. | `jon-morris.com/variables/variables.php` | no |
 | Bookmarks | Own project | [[?]] | Designer | Custom printed bookmarks, including a Fahrenheit 451 bookmark. | `jon-morris.com/work/bookmarks.php`, `previous case studies/bookmarks.php`, `jon-morris.com/work/things.php` | no |
-| Cardboard Appendix | Own project | 2017–; 2023–2026 (sources differ) | Founder & Designer | Board game rulebooks as searchable, cross-linked, accessible web pages, plus teaching resources. | `jon-morris.com/work/cardboard-appendix.php`, `jon-morris.com/work/ca old.php` (earlier version), `previous case studies/cardboard-appendix.php`, `previous case studies/ca old.php`, `jon-morris.com/cardboard appendix project.php`, `jon-morris.com/includes/project-listing.php` (commented out), `src/projects/cardboard-appendix.md`, GitHub: `cardboard-appendix` | short page |
+| Cardboard Appendix | Own project | 2023– (origin 2017) | Founder & Designer | Board game rulebooks as searchable, cross-linked, accessible web pages, plus teaching resources. | `jon-morris.com/work/cardboard-appendix.php`, `jon-morris.com/work/ca old.php` (earlier version), `previous case studies/cardboard-appendix.php`, `previous case studies/ca old.php`, `jon-morris.com/cardboard appendix project.php`, `jon-morris.com/includes/project-listing.php` (commented out), `src/projects/cardboard-appendix.md`, GitHub: `cardboard-appendix` | short page |
 | cci | [[?]] | [[?]] | [[?]] | [[?]] (GitHub repo name only; "CCI" also appears as a label on the Community Playthings page.) | GitHub: `cci` | no |
 | Do The Home Brew | Own project | 2018 (started earlier [[?]]) | Designer | Site teaching beginners to brew beer, grown from illustrations of his homebrew gear. | `jon-morris.com/ventures/homebrew.php` | no |
 | Indonesia Merger Calculator | Own project | [[?]] | [[?]] | [[?]] (GitHub repo name only; Indonesia is a board game.) | GitHub: `Indonesia-Merger-Calculator` | no |
@@ -194,7 +194,7 @@ Names that appear in a clients list (or as a sub-brand) without a project page o
 
 **Employment**
 
-1. **Current role.** `jon-morris.com/about.php` says he is currently a Senior UX Designer at Elva Design. `jon-morris.com/includes/cv.php` says he is currently a Principal UX Designer at Fidelity Investments.
+1. ~~**Current role.**~~ **Resolved (Jon, 2026-11-26): currently at Fidelity;** `about.php` is out of date. `jon-morris.com/about.php` says he is currently a Senior UX Designer at Elva Design. `jon-morris.com/includes/cv.php` says he is currently a Principal UX Designer at Fidelity Investments.
 2. **Fidelity start date.** Conversation says July 2025. The sources give only "2025–2026" (`jon-morris.com/includes/project-listing.php`, `src/projects/fidelity-enterprise-architecture.md`); no month.
 3. **Agency name and end date.** Conversation says Elva Design, possibly "useragency", until about August 2024. No source gives an end date. "useragency" appears only as a GitHub repo name (`useragency.co`), never in the site sources. The latest dated agency project is Better Trail (2024).
 4. **Which agency did which project.** Only `jon-morris.com/work/dickies.php` names Elva. The pages with the role "UI Designer" (American Tourister, Community Playthings, KIND, NIC+Zoe, PXG, Sporting Life, Vince) and "Lead UI Designer" (Red Wing) name no agency: an earlier agency, or an earlier title at Elva, is `[[?]]`.
@@ -212,7 +212,7 @@ Names that appear in a clients list (or as a sub-brand) without a project page o
 10. **Red Wing Shoes role.** `work/red-wing-shoes.php`: "Lead UI Designer". `ventures/some rws thing.php`: "Lead UX Designer".
 11. **The Company Store role and year.** `includes/project-listing.php`: "Senior UX Designer", 2023. `src/projects/the-company-store.md`: "Lead UX Designer", no year. Page text: "lead UX designer".
 12. **Better Trail role and team.** Listing and `src/projects/better-trail.md`: "Senior UX Designer"; page text: "lead UX designer". Team partner is "UI Designer" (`work/nasm.php`), "Visual Designer" (`work/better-trail.php`) and "Senior Visual Designer" (`includes/project-listing.php`).
-13. **Cardboard Appendix start.** `includes/project-listing.php` and `src/projects/cardboard-appendix.md`: 2023–2026. `cardboard appendix project.php`: "2017", "began at the tail end of 2017".
+13. ~~**Cardboard Appendix start.**~~ **Resolved (Jon, 2026-11-26): 2023,** when it officially started or relaunched; 2017 is its earlier origin. `includes/project-listing.php` and `src/projects/cardboard-appendix.md`: 2023–2026. `cardboard appendix project.php`: "2017", "began at the tail end of 2017".
 14. **Leviathan Mech / Splinter.** `src/projects/leviathan-mech.md` calls it a "40%" keyboard in the title and "split 40%" in the summary; `includes/project-listing.php` says "split keyboard". The old site names the product (Splinter); the new site names the venture (Leviathan Mech).
 15. **Timberland Limited Release.** `work/timberland-limited-release.php`: "UI Designer, Art Director", 2017 redesign. `delete/work/old/timberland-limited-release-f16.php`: "2016 – Lead Designer". `delete/resume.php`: Art Director for the 2017 program. May be two seasons of one program `[[?]]`.
 16. **Timberland Boot Company role.** `work/timberland-boot-company.php`: "Designer". `delete/work/old/timberland-boot-company-2016.php`: "2016 – Lead Designer".
@@ -221,7 +221,7 @@ Names that appear in a clients list (or as a sub-brand) without a project page o
 19. **Do The Home Brew.** Page header says "2018"; an image is captioned "Fall 2017 Header"; text says it ran "a number of years".
 20. **Years only on the new site.** Monopoly Deal, NHL-95 and Personal Organization are dated 2026 in `src/projects/`; no other source dates them. The Pamphlet's 2024–2026 appears only in `src/projects/the-pamphlet.md`.
 
-**Pages carrying text from another page** (so their body can't be used as a source for that project)
+**Pages carrying text from another page.** **Resolved (Jon, 2026-11-26): these were duplicated with placeholder text; ignore that text.** Treat the projects as having no written source yet.
 
 21. `work/nasm.php`: no title; body is the Better Trail intro. Client identity `[[?]]`.
 22. `work/dickies.php`: body under the title repeats the Bassett configurator text with the name swapped; the page itself asks "Is this about dickies size guides or about the nav/taxonomy work I did?".
