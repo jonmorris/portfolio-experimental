@@ -2,8 +2,10 @@
 
 One modular template covers both work case studies and side projects. The spine
 is the same; side projects switch some blocks off. This avoids maintaining two
-systems. Grounded in guidance from NN/g, IxDF, UXfolio, learnui.design, and
-exemplars like Simon Pan's Uber case study.
+systems. The structure leads with decisions, not process (ADR-0019), grounded
+in first-party hiring guidance from HubSpot, Atlassian, Meta, Adobe, Intercom,
+Spotify and NN/g, and in Simon Pan's Uber case study as an exemplar. Sources and
+quotes: `docs/research/senior-product-designer-case-studies-verified.md`.
 
 Live demos (build the site, then visit):
 
@@ -35,29 +37,56 @@ summary:  "2–3 lines that stand alone — many readers read only this."
 
 ## Section spine
 
-| # | Section            | Work | Side project                         |
-|---|--------------------|------|--------------------------------------|
-| 1 | Hero / cover       | ✓    | ✓                                    |
-| 2 | Overview / TL;DR   | ✓    | ✓ → "What it is" (the hook)          |
-| 3 | Problem            | ✓    | ✓ → "Why I built it" (motivation)    |
-| 4 | Goals & constraints| ✓    | optional / drop                      |
-| 5 | Research           | ✓    | usually collapse                     |
-| 6 | Process & decisions| ✓    | → "How it works" (lighter)           |
-| 7 | Final solution     | ✓    | merged into "How it works"           |
-| 8 | Outcomes & impact  | ✓    | → "What I learned" (qualitative ok)  |
-| 9 | Reflection         | ✓    | merged into "What I learned"         |
+| # | Section                         | Work | Side project                      |
+|---|---------------------------------|------|-----------------------------------|
+| 1 | Opening (no heading)            | ✓    | ✓ → "What it is" (the hook)       |
+| 2 | Role & scope                    | ✓    | drop: it's self-initiated, say so |
+| 3 | Confidentiality note            | if needed | —                            |
+| 4 | Problem                         | ✓    | ✓ → "Why I built it"              |
+| 5 | Constraints                     | ✓    | optional / drop                   |
+| 6 | Design decisions                | ✓    | → "How it works" (lighter)        |
+| 7 | Outcome                         | ✓    | merged into "What I learned"      |
+| 8 | What I'd do differently         | ✓    | merged into "What I learned"      |
 
-**Work:** all nine, problem → process → outcome. Target 800–1,500 words; readers
-spend ~60s, so sections 1–3 and 8 must carry the story alone. Lead outcomes with
-real metrics against the baseline set in Goals.
+1. **Opening.** Visible without scrolling: the strongest visual, then one or two
+   sentences on the problem, what shipped and what changed. Reviewers may not
+   finish the page, so the main points come first.
+2. **Role & scope.** What *you* owned, in the first person, separated from the
+   team's work. Team size, partner teams, stakeholders you aligned, dates, and
+   where your involvement ended. Say so if you framed the problem or co-wrote
+   the brief; that initiative is a seniority signal.
+3. **Confidentiality note.** One or two lines saying what was omitted or
+   obscured and why; visuals redacted, blurred or recreated generically. Repeat
+   a one-line note next to any withheld data.
+4. **Problem.** Why it mattered to users *and* the business, and how you knew it
+   was real.
+5. **Constraints.** Just enough process to explain the box you worked in:
+   technical, business and time constraints, and which you pushed back on. A
+   paragraph, not a tour. Reviewers already know the standard process.
+6. **Design decisions.** The main body. Show the designs at readable size. For
+   each hard call: the options considered, what you rejected and why, the
+   constraint behind any compromise, where you pushed back, and what you lost.
+   Pick the calls that matter; there's no set number.
+7. **Outcome.** Metrics or qualitative evidence, how success was defined, and
+   what didn't move. Use relative figures when absolute ones are confidential.
+   Never invent a number; directional evidence stated honestly beats silence.
+8. **What I'd do differently.** Short and honest.
 
-**Side project:** ~4 sections (What it is → Why I built it → How it works → What I
-learned). Read in a minute, lead with motivation, don't fake research or metrics,
-link out for depth.
+**Side project:** four sections (What it is → Why I built it → How it works →
+What I learned). Lead with motivation, say it's self-initiated, don't fake
+research or metrics, and link out for depth.
+
+**Length.** The sources don't settle it: Meta argues for a few hundred words on
+the page; Simon Pan's well-regarded case study runs far longer. Keep the page
+tight and put depth in the decisions section. A short-version-plus-full-write-up
+split is an open site-design question, not part of this template.
+
+**Portfolio level.** Three to five case studies online, chosen for the work you
+want next, with one or two ready to present live for 30–45 minutes.
 
 ## Image patterns
 
-Aim ~30% imagery / 70% text, distributed across sections (not clustered). Every
+Distribute imagery across sections rather than clustering it. Every
 load-bearing image gets a caption saying what it is and *why it mattered.*
 
 Authored as plain HTML `<figure>` blocks in the markdown (kept flush-left so
@@ -93,8 +122,9 @@ artwork for every pattern is in `src/assets/examples/`.
 
 ## Common mistakes to design against
 
-- Output over outcome — pretty screens, no baseline or metrics.
+- Output over outcome: screens with no result or evidence of what changed.
+- A tour of the standard process instead of the decisions you made.
+- Hiding your own contribution inside the team's ("we" everywhere).
 - Repeating frontmatter (role/skills/team) as body headings.
-- A mechanical process dump that explains *what UX is* instead of your judgment.
 - Uncaptioned images; clustering all visuals in one section.
 - Judging a side project by client-work standards — say it's self-initiated.
