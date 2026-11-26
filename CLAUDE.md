@@ -70,6 +70,18 @@ Strong success criteria let you loop independently. Weak criteria ("make it work
 
 **These guidelines are working if:** fewer unnecessary changes in diffs, fewer rewrites due to overcomplication, and clarifying questions come before implementation rather than after mistakes.
 
+## Project phase: discovery
+
+We're early: gathering, researching and exploring, not yet refining. No project
+or case study has been written to the current template, so:
+
+- **Never judge a project by its current content.** Word count, missing
+  images or a thin page say nothing about whether it belongs; it hasn't been
+  written yet. Don't rank, cut or exclude on that basis.
+- **Widen before narrowing.** Collect options and lay them out. Ask only when a
+  real fork needs Jon's call, and keep targets tentative.
+- **Ask short, simple questions,** one at a time.
+
 ## Running records
 
 `docs/adr/` and `docs/CASE-STUDY.md` are repo-only records (never built or
