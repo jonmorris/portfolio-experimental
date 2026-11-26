@@ -26,7 +26,7 @@ Short names below: **md** = `src/projects/better-trail.md`, **php** = `better-tr
 | | Earlier versions: "Establishing Trust and Authenticity" (php); "Building Trust and Legitimacy in Gear Reviews" (php-new, also the listing header in `variables-all.php`) | php, php-new |
 | name | "Better Trail" | md |
 | type | work | md |
-| year | **Conflict:** 2024 in md frontmatter; Jon says the project was ~2023. He left Elva Design ~Aug 2024. | md; Jon |
+| year | **Resolved: 2024** (Jon, 2026-11-26; exact timing not important). Job title: Senior UX Designer, Elva Design (Aug 2021 – Aug 2024). | md; Jon |
 | role | "Senior UX Designer" in md frontmatter; body text says "lead UX designer" and "sole individual responsible for User Experience". Jon: Senior UX Designer at Elva Design (an agency). | md; php; Jon |
 | client | `[[?]]`: no `client` field in md frontmatter. The client is Better Trail (its founders). The agency was Elva Design. Which one goes in `client`, and whether Elva is named, is open. | Jon |
 | link | `https://bettertrail.com/`, linked in php and php-new ("check out their live site"). Not in md frontmatter. | php, php-new |
@@ -66,7 +66,7 @@ Short names below: **md** = `src/projects/better-trail.md`, **php** = `better-tr
 
 **Open questions for Jon**
 
-- Confirm the year (2023 or 2024) and how long the engagement ran.
+- ~~Confirm the year~~ Resolved: 2024. How long the engagement ran is still open.
 - What attribution do you want: the agency named (Elva Design), the client named, or both?
 - Did you frame the problem or co-write the brief, or did it arrive from the founders?
 - Where did your involvement end: at launch, or after?
