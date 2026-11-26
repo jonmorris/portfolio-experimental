@@ -25,7 +25,7 @@ Short names below: **md** = `src/projects/cardboard-appendix.md`, **php** = the 
 | title | "Bringing board game rules into the digital age" (md). Earlier: "Better Boardgame Rules" (php); "Revolutionizing Boardgame Rulebooks" (listing header); "Teaching boardgames better" (ventures list) | md; php; `variables-all.php` |
 | name | "Cardboard Appendix" | md |
 | type | side | md |
-| year | **Conflict:** md `year: 2026`, `displayYear: "2023-2026"`. about: "2017 - Cardboard Appendix" and "began at the tail end of 2017". CS §1 timeline: `[[six months]]` (a placeholder). | md; about; CS §1 |
+| year | **Resolved (Jon, 2026-11-26): 2023** (official start/relaunch; 2017 is the earlier origin). Was: md `year: 2026`, `displayYear: "2023-2026"`. about: "2017 - Cardboard Appendix" and "began at the tail end of 2017". CS §1 timeline: `[[six months]]` (a placeholder). | md; about; CS §1 |
 | role | md: "Founder & Designer". php: "Founder, Lead Designer, Creative Direction, Project Management, Design Strategy, Content Strategy, Copywriting, Development". old: "Web Design, Development, Copy Writing"; credits "Lead Designer". CS §1: `[[Product designer and owner: research, UX, visual design, content design, front-end]]`. | md; php; old; CS §1 |
 | client | n/a (side project) | n/a |
 | link | `https://www.cardboardappendix.com` | md |
@@ -62,7 +62,7 @@ Short names below: **md** = `src/projects/cardboard-appendix.md`, **php** = the 
 
 - Which role wording do you want: "Founder & Designer", or the CS §1 list?
 - Do you want to say how the work was split with an AI coding agent (CS §11)? If so, how?
-- Timeline: 2017 origins vs 2023–2026 vs "six months". Which span does this case study cover?
+- ~~Timeline~~ Resolved: the project starts in 2023; the 2017 origin can be told as background.
 
 ## 3. Confidentiality note
 

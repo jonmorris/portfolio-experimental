@@ -20,6 +20,8 @@ Short names below: **work** = `jon-morris.com/work/dickies.php`, **backup** = `z
 
 ### Note on the page body (applies to everything below)
 
+**Resolved (Jon, 2026-11-26): the shared body is placeholder text duplicated from the Bassett page. Ignore it; it is not Dickies material.** The notes below are kept only as a record.
+
 Both work and backup have the same body text. Apart from the Retrospective, that body matches `work/bassett.php` paragraph for paragraph, with "Bassett" replaced by "dickies". It describes a product configurator: "premium in-store design experience", "working with a designer 1-on-1", "fabrics and other furniture options", embedding configuration options in the PDP. Two lines inside that shared text mention navigation: "I also redesigned their navigation and taxonomy" and "The redesign project as a whole was a vast improvement from their previous website". Both lines appear in `bassett.php` too.
 
 The work version's heading area holds a note-to-self: "Is this about dickies size guides or about the nav/taxonomy work I did?"
