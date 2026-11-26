@@ -24,9 +24,13 @@ Titles below are Jon's actual job titles. Where an old project page says "Lead" 
 | Senior UX Designer | Elva Design | Aug 2021 – Aug 2024 |
 | Experience Designer | Pixelmedia | Apr 2018 – Jul 2021 |
 | Interactive Designer | Timberland | Jun 2013 – Apr 2018 |
-| Earlier roles (Yankee Group, UNFI, Jamestown Distributors) | — | before 2013 `[[?]]` |
+| Web & Graphic Designer | Yankee Group | between 2009 and 2013 `[[?]]` |
+| Graphic Designer (advertising department) | UNFI (United Natural Foods) | Jun 2009 – `[[?]]` |
+| Product Photographer (later "Web Designer & Photographer") | Jamestown Distributors | Jun 2008 – Jun 2009 |
 
-Education: B.A. Graphic Design, Roger Williams University, 2009. Working in design since 2009.
+Education: B.A. Graphic Design Communication (minor in Philosophy), Roger Williams University, May 2009. Working in design since 2009.
+
+Earlier dates are from an August 2009 resume and an archived Timberland-era resume page (Jon, 2026-11-26). The Timberland-era page adds: he led design for Timberland's e-commerce site with a small team, producing about 100 pages in two years, set up a device-testing lab, and started a project to re-evaluate the design process.
 
 Agency work not labelled Elva is most likely Pixelmedia (Jon, 2026-11-26).
 
@@ -94,13 +98,13 @@ From `jon-morris.com/delete/resume.php` (an archived page), employers before the
 
 | Project | Client / employer | Year(s) | Role | What it was | Sources | On new site now |
 |---|---|---|---|---|---|---|
-| Arkwright Development Tile Tool | Own project | [[?]] | [[?]] | [[?]] (GitHub repo name only; Arkwright is a board game.) | GitHub: `Arkwright-Development-Tile-Tool` | no |
+| Arkwright Development Tile Tool | Own project | [[?]] | [[?]] | A small personal tool showing all of the development (improvement) tiles in the board game Arkwright. Barely started; personal use only, not for Cardboard Appendix (Jon). | GitHub: `Arkwright-Development-Tile-Tool` | no |
 | Board game designs | Own project | [[?]] | [[?]] | Titles listed in a site data file: Burgundy, Plowed, Sausages, Sushi Chef, Mini 4X. No pages exist at their paths. | `jon-morris.com/variables/variables.php` | no |
 | Bookmarks | Own project | [[?]] | Designer | Custom printed bookmarks, including a Fahrenheit 451 bookmark. | `jon-morris.com/work/bookmarks.php`, `previous case studies/bookmarks.php`, `jon-morris.com/work/things.php` | no |
 | Cardboard Appendix | Own project | 2023– (origin 2017) | Founder & Designer | Board game rulebooks as searchable, cross-linked, accessible web pages, plus teaching resources. | `jon-morris.com/work/cardboard-appendix.php`, `jon-morris.com/work/ca old.php` (earlier version), `previous case studies/cardboard-appendix.php`, `previous case studies/ca old.php`, `jon-morris.com/cardboard appendix project.php`, `jon-morris.com/includes/project-listing.php` (commented out), `src/projects/cardboard-appendix.md`, GitHub: `cardboard-appendix` | short page |
 | cci | Personal | [[?]] | [[?]] | A joke website for Jon's golf tournament. **Not for the portfolio** (Jon). | GitHub: `cci` | no |
 | Do The Home Brew | Own project | 2018 (started earlier [[?]]) | Designer | Site teaching beginners to brew beer, grown from illustrations of his homebrew gear. | `jon-morris.com/ventures/homebrew.php` | no |
-| Indonesia Merger Calculator | Own project | [[?]] | [[?]] | [[?]] (GitHub repo name only; Indonesia is a board game.) | GitHub: `Indonesia-Merger-Calculator` | no |
+| Indonesia Merger Calculator | Own project | [[?]] | [[?]] | A small tool for calculating mergers in the board game Indonesia (Jon). | GitHub: `Indonesia-Merger-Calculator` | no |
 | Kingdom Death Monster injury table | Own project | [[?]] | [[?]] | Web version of the Kingdom Death: Monster injury tables (two versions). | `jon-morris.com/game-design/kdm/`, `jon-morris.com/game-design/kdm/v2/` | no |
 | Leviathan Mech | Own venture (shares the venture with Splinter keyboard) | Aug 2024 – Jul 2025 | Product Designer | Keyboard brand and Shopify store. Per the resume: concept to fulfilled orders, directing a PCB designer, a case designer and an overseas factory; 12 boards sold at a $550 base price. | `src/projects/leviathan-mech.md`, GitHub: `leviathanmech` | short page |
 | MBTA Commuter Rail app | Own project | 2014 | Designer | Concept app for real-time Commuter Rail train status, usable one-handed. | `jon-morris.com/ventures/mbta.php` | no |
@@ -217,10 +221,10 @@ Names that appear in a clients list (or as a sub-brand) without a project page o
 2. ~~**Fidelity start date.**~~ **Resolved: Jul 2025** (resume). Conversation says July 2025. The sources give only "2025–2026" (`jon-morris.com/includes/project-listing.php`, `src/projects/fidelity-enterprise-architecture.md`); no month.
 3. ~~**Agency name and end date.**~~ **Resolved: Elva Design, Aug 2021 – Aug 2024** (resume). `useragency.co` is an unrelated, barely started consulting site. Conversation says Elva Design, possibly "useragency", until about August 2024. No source gives an end date. "useragency" appears only as a GitHub repo name (`useragency.co`), never in the site sources. The latest dated agency project is Better Trail (2024).
 4. ~~**Which agency did which project.**~~ **Resolved:** agency work not labelled Elva is most likely Pixelmedia (Apr 2018 – Jul 2021). Only `jon-morris.com/work/dickies.php` names Elva. The pages with the role "UI Designer" (American Tourister, Community Playthings, KIND, NIC+Zoe, PXG, Sporting Life, Vince) and "Lead UI Designer" (Red Wing) name no agency: an earlier agency, or an earlier title at Elva, is `[[?]]`.
-5. **Gaps.** *Partly resolved:* Timberland Jun 2013 – Apr 2018 (resume). Still unknown: dates for Yankee Group, UNFI and Jamestown Distributors. Timberland end date, agency start date, and dates for Yankee Group, UNFI and Jamestown Distributors are not in any source. The Timberland "June 2013 / Present" comes from an archived resume (`jon-morris.com/delete/resume.php`).
+5. **Gaps.** *Mostly resolved:* Timberland Jun 2013 – Apr 2018; Jamestown Distributors Jun 2008 – Jun 2009; UNFI from Jun 2009 (resumes). Still unknown: UNFI's end date and Yankee Group's dates. Timberland end date, agency start date, and dates for Yankee Group, UNFI and Jamestown Distributors are not in any source. The Timberland "June 2013 / Present" comes from an archived resume (`jon-morris.com/delete/resume.php`).
 6. ~~**Length of career.**~~ **Resolved:** working in design since graduating in 2009; the resume says 17 years. `about.php`: "the past 15 years". `includes/cv.php`: "more than fifteen years". `includes/about.php`: "building for the web since 2009". `delete/resume.php`: "9 Years of Experience".
 7. **Number of brands.** `about.php`: "over 40 brands". `includes/cv.php`: "nearly fifty others".
-8. **Yankee Group title.** `delete/resume.php`: "Web / Graphic Designer". `work/yankee-group-infographics.php`: "Illustrator, Designer". `delete/work/old/yankee-group-search.php`: "Designer".
+8. ~~**Yankee Group title.**~~ **Resolved:** job title Web & Graphic Designer (archived resume); the other labels describe project roles. `delete/resume.php`: "Web / Graphic Designer". `work/yankee-group-infographics.php`: "Illustrator, Designer". `delete/work/old/yankee-group-search.php`: "Designer".
 
 **Client lists**
 
@@ -252,4 +256,4 @@ Names that appear in a clients list (or as a sub-brand) without a project page o
 
 **Unknown from repo names alone**
 
-28. *Partly resolved:* `cci`, `space-barista`, `restaurant-finder` and `useragency.co` are described in their rows. Still unknown: `Arkwright-Development-Tile-Tool`, `Indonesia-Merger-Calculator`, and dates for the AI experiments (see #32 for what they are).
+28. *Partly resolved:* `cci`, `space-barista`, `restaurant-finder` and `useragency.co` are described in their rows. Arkwright and Indonesia are now described too. Still unknown: dates for the AI experiments (see #32 for what they are).
