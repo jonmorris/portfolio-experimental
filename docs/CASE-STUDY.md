@@ -101,6 +101,9 @@ Two habits make the project legible over time:
 - **Decisions recorded as they're made.** Short, numbered ADRs in `docs/adr/`
   keep the "why" close to the work. (ADR-0016; it started as a decision-log
   table, ADR-0013, and moved to ADRs so the agent skills could read it.)
+- **Research before templates.** The case-study template was rebuilt after
+  checking what design hiring teams actually ask for: decisions and trade-offs
+  over a tour of process. (ADR-0019; `docs/research/`.)
 
 ## 7. Saying no, on the record
 
@@ -138,3 +141,4 @@ was entirely written with AI. Is that good?"*
 |------|--------|--------|
 | 2026-11-19 | all | Initial draft from repo history and docs |
 | 2026-11-25 | all, 6 | References moved from the decision log to ADRs; module 6 retold |
+| 2026-11-26 | 6 | Added research-led case-study template |
