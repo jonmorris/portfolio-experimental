@@ -1,5 +1,7 @@
 # Case studies for senior / lead / principal product designer roles: what the sources say
 
+> **Superseded where they differ** by [`senior-product-designer-case-studies-verified.md`](senior-product-designer-case-studies-verified.md) (26 Nov 2026), which re-read the sources in full in a browser. This first pass worked from search excerpts only.
+
 Research date: 2026-11-26. Question: what should a UX/product design case study contain, and how should it be structured, for someone applying to senior, lead or principal product designer roles in 2025–2026?
 
 > **How this was researched, and its main limitation.** Direct page fetching was blocked in this
