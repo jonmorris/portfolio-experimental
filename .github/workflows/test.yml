@@ -14,7 +14,8 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: 20
+          cache: npm
 
-      # Node's built-in test runner; no install step is needed.
-      # (No test files at the moment, so this passes trivially.)
+      # The tests build the site with Eleventy, so dependencies are needed.
+      - run: npm ci
       - run: npm test
