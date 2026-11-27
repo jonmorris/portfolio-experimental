@@ -145,3 +145,24 @@ Short names below: **md** = `src/projects/nhl-95-rosters.md`, **ventures** = `ve
 **What I learned.** You can just make things, and you can just fix things: small improvements nobody asked for find users. The game's stat view was fine for a 1995 Genesis game but not great. It was also good practice hand-coding a small site.
 
 **What I'd change.** It's of its era. I'd rebuild it much better today, add the deeper/hidden stats, and do more with it generally.
+
+---
+
+## The spreadsheets (received 2026-11-27, not committed)
+
+**Before: the community source** (`NHL95_PLAYER_RATINGS.xls`, credited to the NHL '95 online community)
+- A sprawling fan workbook: about 22 sheets (for example "big board", "HEAT CHART", "hex95", "TEAM LINE UPS HEAT", goalies, forwards, defensemen, "legend", even a pasted IGN FAQ).
+- Ratings are mixed across scales: hex values 0–6 (the "legend" sheet explains that in-game attributes reduce to 0–6), letter grades (A+ to F-), 0–99 estimates and derived "SEGA" scores. Several sheets duplicate each other with slightly different columns.
+- Rich but hard to use at a glance or mid-game.
+
+**After: Jon's version** (`NHL 95 Player Stats – Share`)
+- **One sheet, one consistent scale:** 618 players across 26 teams on 0–99 ratings.
+- **Built for lookup:** team, jersey number and name are frozen on the left; a filter covers every column; a star marks star players; handedness (L/R) is a column, which supports building lines the way real coaches do.
+- **Colour-coded ratings:** conditional formatting bands across all rating columns, so strong and weak attributes read at a glance.
+- **A team rating column** for comparing teams.
+- **Jon's own composite ratings** (averages of in-game attributes):
+  - *Offensive Overall* = average of Agility, Top Speed, Shot Power, Shot Accuracy, Stick Handle.
+  - Three more formula columns, labelled *Tough*, *Scoring* and *Acc*: average(Stick Handle, Agility), average(Shot Power, Shot Accuracy), average(Weight, Agility).
+  - **Question for Jon:** do the labels match the formulas (for example, is "Tough" really Stick Handle + Agility)? What was each composite for?
+
+**Why this matters for the write-up.** It's a clear before/after of the same data: a fan's sprawling, mixed-scale workbook turned into one filterable, colour-coded, mid-game-friendly view, with new composite ratings for building lines. Side-by-side screenshots of the two would be the strongest visual on the page.
