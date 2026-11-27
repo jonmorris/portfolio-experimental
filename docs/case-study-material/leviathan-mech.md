@@ -167,7 +167,7 @@ Short names below: **md** = `src/projects/leviathan-mech.md`, **php** = `splinte
 
 ## Jon's answers (grill session, 2026-11-27)
 
-**Framing.** The page is **Splinter**. Leviathan Mech is only the name of the e-commerce side and brand; it doesn't need to be mentioned.
+**Framing.** The page is **Splinter**; Splinter is the story. **Leviathan Mech** (the brand and e-commerce side) can be mentioned where it fits the selling story: Jon built the Shopify store and handled all the logistics, also sold a keycap set (DSS White on Black) through it, and plans more products.
 
 **Why I made it.** After years in the hobby and owning 14–16 keyboards, I'd built up a clear idea of what I wanted, and nothing on the market hit it. I started with the layout and core requirements: a **40%**, **split**, with **3u spacebars** and **nav columns**. Then the aesthetic: chunky, industrial-looking boards I liked. Further decisions refined the requirements from there.
 
