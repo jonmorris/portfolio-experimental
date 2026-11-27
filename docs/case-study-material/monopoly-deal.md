@@ -135,3 +135,20 @@ Short names below: **md** = `src/projects/monopoly-deal.md`, **php** = `monopoly
 - `css/style.css` styles a `.project-card#monopoly`, but `includes/project-listing.php` has no Monopoly card today.
 - The detailed game-design critique (randomness, first-turn incentives, stalling, rules clarity, catch-up) could be its own section, a link-out, or left off. Question for Jon.
 - php's closing invites contact about doing "something more official".
+
+---
+
+## Jon's answers (grill session, 2026-11-27)
+
+**When.** Not sure yet. Jon will check the dates in the Figma file.
+
+**Why I made it.** There are many versions of Monopoly Deal. In the one Jon bought, the graphic design didn't do the game justice: confusing, a bit ugly, and drifting from classic Monopoly's visual baseline. He wanted to play a better version of a game he liked. An admittedly unsolicited redesign, done purely as a design exercise, and **not a criticism** of the people who made the game.
+
+**Approach.** An **audit** of the existing version's problems (Jon has it and will add the details), then fixes for everything found while bringing it back to a classic Monopoly feel:
+- **Colour and accessibility:** colours were too similar to tell apart, including for colour-blind players.
+- **Double-sided cards:** once stacked, nothing shows a card is double-sided, so you can't read what someone has from across the table (which matters when stealing). Tried a **corner chip showing the opposite side's colour**.
+- Readability fixes and more, in Jon's notes (to add).
+
+**Testing.** v1 was printed and playtested, producing notes for v2. Some v2 changes may have started; it's still in progress.
+
+**What I learned.** Everything can be better. Accessibility and readability don't only exist on the web. Curiosity about how corporately produced games are made: what the process and rigour are, and why obvious, fairly easy-to-fix problems ship. Fixes can be correct for accessibility and usability *and* faithful to the brand.
