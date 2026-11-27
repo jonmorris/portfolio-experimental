@@ -213,6 +213,62 @@ Names that appear in a clients list (or as a sub-brand) without a project page o
 
 ---
 
+## Jon's master list (2026-11-27)
+
+Jon's own list of clients and projects, verbatim, for context and future case studies. Unranked. *In catalog above* compares by client name only.
+
+| Client | Project | In catalog above |
+|---|---|---|
+| Fidelity | Tech Stack Search Tool | yes |
+| Better Trail | Review Content Website | yes |
+| Elf App | Foundation Finder App | yes |
+| Leviathan Mech | Splinter Keyboard | yes |
+| Stanley | Color Selector | yes |
+| TCS | Customizer | yes |
+| Dickies | Navigation Rework | yes |
+| Me? | Monopoly Deal Redesign | yes |
+| Sporting Life | Ecommerce Redesign | yes |
+| PXG | Club Customizer | yes |
+| Cardboard Appendix | Cardboard Appendix | yes |
+| The Pamphlet | The Pamphlet | yes |
+| Bassett | Customizer | yes |
+| Dickies | Dickies Size Guide | yes |
+| Roofnest | — | yes |
+| Red Wing | — | yes |
+| — | Bookmarks | yes |
+| — | Posters | yes |
+| Coola | — | yes |
+| Red Kap | — | yes |
+| Edystone | — | **new** |
+| LLBean | Redesign / Customizer | yes |
+| Timberland | Timberland LTD | yes |
+| Pet Supermarket | — | yes |
+| American Tourister | — | yes |
+| Community Playthings | — | yes |
+| Kind Snacks | — | yes |
+| Nic + Zoe | — | yes |
+| Penn Fishing | — | yes |
+| Timberland | Timberland Boot Company | yes |
+| Timberland | Timberland Cinemagraphs | yes |
+| Timberland | Timberland Staff Picks | yes |
+| UNFI | Natural Connection Flyer | yes |
+| NASM | NASM Map | yes |
+| NASM | NASM Bundles | yes |
+| Stride Rite | — | yes |
+| Turtle Fur | — | **new** |
+| Tena | — | **new** |
+| Jessie and Laurent | — | **new** |
+| Ben Bridge | — | **new** |
+| Timberland | Timberland Markmakers | yes |
+| Vince | — | yes |
+| Yankee Group | Infographics | yes |
+| iRobot | — | yes |
+| Nugs.net | — | **new** |
+| Daz3D | — | **new** |
+| Retold Recycling | — | **new** |
+
+---
+
 ## Conflicts and unknowns
 
 **Employment**
