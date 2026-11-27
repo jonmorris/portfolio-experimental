@@ -128,3 +128,19 @@ Short names below: **md** = `src/projects/the-pamphlet.md`, **php** = `the-pamph
 - `site/rmation/` holds ten HTML files; the home page links three. The other seven: `communication.html` ("Every Problem is a Communication Problem"), `howtofocusonwork.html`, `howtopayoffstudentloans.html`, `howtomakecoffee.html`, `howtoeatright.html`, `howtoexercise.html`, `shouldyouavoidthesun.html`. Several carry the body or `<title>` of another page (e.g. `howtoeatright.html` is titled "How to Boil Eggs"), so they look like pages in progress. Question for Jon: are these planned topics?
 - About page also describes a broader scope than cooking: life and work topics (loans, focus, sun) appear in the unlinked pages.
 - md and php share most of their text; md drops php's "Research" heading and the "Liquid Hell / Liquid Heaven" figures.
+
+---
+
+## Jon's answers (grill session, 2026-11-27)
+
+**Name.** Call it **Pamphlet** (the brand). The URL is `thepamphlet.info` only because that was the domain available. Recommended on the page: "Pamphlet (thepamphlet.info)".
+
+**Why I made it.** I was searching for measurement conversions while cooking. Google gave flat images, not live text, and every link led to ad-farm, SEO-optimised recipe sites with the chart 37 scrolls down past 50 ads, and sometimes inaccurate. Pamphlet shows the answer quickly at the top of the page, as live text that's responsive and accessible.
+
+**Accuracy.** Checked against official sources. (Naming them on the page, for example USDA for meat temperatures, would strengthen this.)
+
+**Key decision (with the rejected option).** The unlinked pages in the repo (loans, focus, sun and others) were **exploration of the site's point of view**. There were two paths: (1) accurately displaying basic factual information, the core idea; (2) answering general questions in an opinionated way (how to pay off debt, how to budget). The second was **rejected for this site** because it drifted from the original point toward editorial over factual. Topics must be relatively set in stone, not opinion. An example future topic: a pour-over coffee brewing guide with timings.
+
+**Status.** Three topics live. Plans to add more entries with the same problem (fact buried under ads), but it dropped off; Jon wants to get back to it.
+
+**What I learned.** Same as NHL '95: just build the things you want to build; act on the inclination instead of letting the idea sit. And **fix the internet**: ad-farm recipe sites are terrible, so build things that don't do that.
