@@ -246,3 +246,5 @@ Evidence CS lists as not captured yet (`[ ]`): phone-and-desktop hero (§1); a r
 - Knowing what needs your review and what you can trust to the AI's plan; being flexible and collaborative rather than boxing it in.
 
 **Confidentiality.** Nothing needs hiding; everything can be public, including the admin back end.
+
+**Hero (decided 2026-11-27).** A phone-and-desktop pair showing a rulebook page, then the **admin back end as the first image in the body**, to back up the thesis right after the hero.
