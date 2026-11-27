@@ -125,3 +125,23 @@ Short names below: **md** = `src/projects/nhl-95-rosters.md`, **ventures** = `ve
 - Two versions of the old page exist, `ventures/` (longer office-story intro) and `delete/work/` (shorter "mid-90's era gods of ice and bent wood" intro); the body text is the same.
 - `jon-morris.com/variables/variables.php` carries "NHL 95 Player Stats" in the board-game descriptions array; catalog #27 records it as copied there from another array.
 - Catalog places it under "Side projects & ventures", "short page". (`docs/catalog.md`)
+
+---
+
+## Jon's answers (grill session, 2026-11-27)
+
+**Identity.** "NHL '95 Rosters" on the new site and the old "Player Stats" site (nhl-95.com) are the **same project**.
+
+**When.** About **2016–2017**, while at Timberland. The spreadsheet came first, and the website a few months later. The exact year doesn't matter.
+
+**Why I made it.** At Timberland we played NHL '95 on Jon's Sega Genesis on a small tube TV. Player stats were hard to find and hard to read in the game, and some were hidden entirely, yet the stats really matter in play. The **NHL '95 online community** (credit by that name, no link), still actively playing and running tournaments, provided an export of the base game's player stats.
+
+**Iteration 1: spreadsheet.** I turned the export into a well-designed, filterable, searchable Google Sheet shared with everyone. It showed stats you can't see in the game. We used it mid-game to make substitutions, and to **build rosters**: customising lineups the way real coaches do (for example, a left-handed shooter on the right wing), and bringing better players into the one line we played. That made the game feel like managing a team rather than playing default lines.
+
+**Iteration 2: website.** The sheet wasn't great on phones, so I built a simple responsive site for fun, hand-coded in HTML, CSS and PHP. Its current state shows only the in-game stats, not the deeper ones, plus full team rosters. It's an MVP of its era.
+
+**Outcome.** It went live publicly. When the domain registration lapsed, **strangers messaged Jon on Twitter asking for the site back**, so people had found it and were using it to play. He renewed it with auto-renew; it's still live and people still use it. Usage numbers aren't known (there may have been analytics at the time).
+
+**What I learned.** You can just make things, and you can just fix things: small improvements nobody asked for find users. The game's stat view was fine for a 1995 Genesis game but not great. It was also good practice hand-coding a small site.
+
+**What I'd change.** It's of its era. I'd rebuild it much better today, add the deeper/hidden stats, and do more with it generally.
