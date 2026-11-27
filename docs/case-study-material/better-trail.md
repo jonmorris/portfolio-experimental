@@ -245,3 +245,24 @@ Not found: anything showing the pros/cons treatment, the rating system change, o
 - **"Final Designs" gallery:** php and php-new end with a jump-linked gallery of mobile and desktop finals "as they stood as of development hand off."
 - **Differences between php and php-new:** php-new has the first-person "I suggested" for the ratings section; the explicit affiliate-marketing sentence on the PDP; the "clear review structure… transparency… comparison tools" line; and a mislabelled "Homepage Hero Carousel" section. php and php-new comment out different blocks (php: the homepage carousel; php-new: the individual review section).
 - **Portfolio context:** `docs/case-study-template.md` says Better Trail is the one page that already follows the template's frontmatter. `docs/adr/0019-case-studies-lead-with-decisions.md` lists it as written to the old spine.
+
+---
+
+## Jon's answers (grill session, 2026-11-27)
+
+**Scope and timing.** 12 weeks. Jon's part ran from **kickoff to developer handoff**, with a little development support after.
+
+**Team.** Jon (Senior UX Designer, Elva Design); a **Senior Visual Designer** (most likely; earlier sources vary); **third-party developers** working effectively as part of Elva.
+
+**Platform.** A custom **Next.js** site with **Builder.io** as a headless CMS (checked from page source and headers, Nov 2026), behind Cloudflare, with Klaviyo, Google Tag Manager, Adobe Fonts and CookieYes. **Not Shopify or SFCC**, so it doesn't fit the resume line "40+ e-commerce builds on Shopify and SFCC". Consider describing it separately as a content site.
+
+**What Jon designed (a substantial part of the gear guide):** the comparison tool; Our Ratings Explained; the pros and cons lists; copywriting suggestions and overall direction; the overall UI and site layout; content components on pages like the homepage; how and where affiliate links go; the superlatives list; the sort filter on gear guides; how one or more authors are shown; the summary paragraph at the top; the disclaimer at the top; how each item's ratings are shown; the "how we test" overview; the explanation of the components of a product type; the FAQ at the bottom.
+
+**Key decision: inform before selling.** The founders were open to Jon's suggestion; they iterated together, and the founders **have kept it for years**. Main affiliate links sit **after the main summary and ratings**, so readers absorb the verdict before being sold to. The **product name at the top is a subtle link** to the product page: easy to find and buy, but it doesn't read as a shopping link. "Strategically and intentionally placed for findability without being too pushy."
+
+**Where the trust approach came from.** User research was **minimal and informal** (asking people Jon knew), plus Jon's own experience as a heavy user and comparer of review sites, plus extensive competitive research on review sites and similar sites. The trust thesis came mostly from Jon: many review sites look unrigorous and are effectively affiliate fronts with no real testing. Better Trail's testing was real, so the job was to keep and convey that trust. **Trust, legitimacy and transparency were the main asset; revenue would follow** from living up to the founders' core practices.
+- **Correction for reuse:** the old page's claim of user "surveys and interviews" overstates it; describe the research as informal.
+
+**Outcome.** "High user retention and positive feedback" came from a **client report**. Jon has no copy or figures: he left Elva soon after and only got brief conversational updates, no analytics access. **Verifiable outcome:** the site still runs and looks very similar to Jon's design years later, and the founders kept the affiliate-placement approach. Don't state retention as a metric.
+
+**What I'd do differently.** Be more rigorous in the design process. Push for more comprehensive user research, and **user testing along the way**: years of e-commerce projects meant approaching it from an e-commerce perspective, when a different kind of site deserved more discovery and exploration. Do more with wireframes and early designs. Jon's own experience in the space partly made up for the research, but he'd have liked more. The deliverable has stood the test of time.
