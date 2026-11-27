@@ -204,3 +204,45 @@ Evidence CS lists as not captured yet (`[ ]`): phone-and-desktop hero (§1); a r
 - **CS conventions:** modules marked Core or Optional, suggested cuts by length, and a *Log of additions* (first draft 2026-11-18, latest row 2026-11-23).
 - **Docs disagree on accounts:** README's opening says "No accounts, no backend"; CS §6 and ADR 0021 describe accounts that are live. Worth checking before you write.
 - **md body:** "Why I built it" and "How it works" are carried over word for word from php.
+
+---
+
+## Jon's answers (grill session, 2026-11-27)
+
+**Format.** A **full case study** (not a side project), following the eight-section template.
+
+**Thesis.** *It looks simple, like copy-pasting a PDF into a website, because of all the work behind it:* publisher permission, accuracy, the extraction pipeline, admin and status tooling, accessibility, responsiveness, and the subtle features that make it worth using. **Show the admin back end** to make that visible.
+
+**Origin (two strands).**
+1. **Teaching.** Modern games sometimes include teaching scripts and learn-to-play guides (Root is a good example), but many don't. Jon writes his own notes and teaching scripts for complex games (for example Indonesia) so he doesn't get rusty between plays. The thought: what if we did that at scale? Original content like this is the planned next phase, after the official rules are live.
+2. **Lookup at the table.** Some rulebooks are split across several books (which one has it?) or very long, and one copy gets shared by the whole table during a long first game; you only learn where things are through muscle memory. Searchable PDFs don't always exist (some are flat images), and a print PDF on a phone means pinching, zooming and side-scrolling. "I make websites, and this is just a document": make it a responsive, accessible, searchable site.
+
+**Role & scope.**
+- Initially did everything: hand-built the first versions with a custom PHP template system, and did all the original design work on how to present this content usefully, usably and accessibly.
+- Now: **Jon sets direction, design and all decisions; Claude does the coding** and the project logistics (mattpocock skills, GitHub issues).
+- **Rulebook extraction:** originally Jon retyped and checked every rulebook by hand. At scale that needs a team or AI, so Jon built and trained an AI extraction process over many rulebook types. Early on it made many mistakes and some extractions failed outright; it's now fairly autonomous. It writes **one extraction script per rulebook**, refined after each mistake (for example spaces inserted between letters), turning a print layout into a single-thread Markdown file. Phases so far: correct text, then keeping formatting and image placement, then (now) extracting images without access to the original files.
+
+**Design decisions (to be explored in a dedicated reflection session, see issue).** Examples Jon raised:
+- Why not simply reproduce the text on one big page and rely on browser search? What are the simpler versions, and why weren't they enough?
+- **Paginate by section/chapter vs one long page.** Pagination is easier to navigate and lighter on phones (especially with images); one long page lets browser search cover the whole rulebook. **Jon chose one long page**; reasons to cover in the session.
+- Navigation inside a game vs site pages: at the table you need to jump between a game's content types (siblings) without going back through the top-level nav.
+- A content component system that is flexible but consistent, responsive and accessible across rulebooks that are each a "snowflake" (inline icons, asides and more).
+
+**Status.** Live, in **beta**. It launched deliberately with one game and one rulebook to get immediate feedback (can we do it, does it make sense, is searchable text enough?), then tested and iterated while adding content. The recent focus is a **full redesign of core decisions** (content layout, navigation and taxonomy) before peripheral features. Many rulebooks don't have images yet; asides and advanced typography are still to come.
+
+**Evidence and outcome (honest framing).** Feedback is generally positive and people are interested, but it's new and people don't yet know what to do with it. **Viability is still unproven**: there are thousands of new games a year, and covering them would need much more capacity. Thousands of visits, likely many real people worldwide (bot share unknown). A new host had been blocking search indexing; that's fixed and pages are being re-indexed. **Usage numbers to come.** Fresh user testing at the table with the new version is planned.
+
+**Constraints.**
+- **Copyright.** Each game needs publisher or designer permission. Most have been on board (some treat their rules as effectively open), on the condition that the original content is **never paywalled**, which matches Jon's own philosophy. Some publishers don't yet understand the idea; a few hesitate where having the rules would let people play without buying the game. Asking was stressful at first; the fallback plan was a site built on Jon's own content.
+- **Scale and curation.** What's live is filtered by (1) permission and (2) games Jon wants to play, which skew heavier and more complex because they most need lookup (never basic poker rules). Open: whether to host a permitting publisher's simpler games too. Futures: more capacity and coverage, curation with a request system, or publishers asking to be hosted.
+- **Fidelity.** The official rules must be reproduced perfectly; one error breaks trust. AI tools kept truncating, summarising, copy-editing or rewriting the rules, so protections were added to lock down the official text, and they're working well.
+- **Source variety and missing originals.** Every rulebook's layout differs, some PDFs are flat images, and the original image files aren't available. There's a system for this now, still being iterated.
+- **Time.** Manual extraction was very slow. It's faster now, but every game still takes several iterations plus careful checking.
+
+**What I learned / would do differently.**
+- Every version taught a lot, and the next was far better. It's been a lesson in building a whole platform from scratch, first hand-coded, then as a long-running AI-coding project.
+- **Working with AI:** moved from directing it with constraints to giving it the why, the goal and the context, asking what it can do, and giving it more freedom. Using skills and advanced tools; keeping a paper trail and decision records. Dead ends come from too little context or too many constraints without reasons, which leaves the AI guessing.
+- **Working with AI made me a better communicator with people:** give the why, the goal, the requirements and constraints, and how you'll judge the result. Say it all out loud and write it down (brain dump, then refine).
+- Knowing what needs your review and what you can trust to the AI's plan; being flexible and collaborative rather than boxing it in.
+
+**Confidentiality.** Nothing needs hiding; everything can be public, including the admin back end.
