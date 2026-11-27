@@ -162,3 +162,35 @@ Short names below: **md** = `src/projects/leviathan-mech.md`, **php** = `splinte
 - The `leviathanmech` repo has one commit (2026-04-15, "Add CLAUDE.md behavioral guidelines"), so its history doesn't date the work.
 - Catalog conflict #14 (resolved): split and 40%; the old site names the product (Splinter), the new site the venture (Leviathan Mech). (`docs/catalog.md`)
 - Jon's note says Leviathan Mech is a Shopify store; the `leviathanmech` repo is the separate brand/project site, which links out to the shop. No Shopify theme code was found locally.
+
+---
+
+## Jon's answers (grill session, 2026-11-27)
+
+**Framing.** The page is **Splinter**; Splinter is the story. **Leviathan Mech** (the brand and e-commerce side) can be mentioned where it fits the selling story: Jon built the Shopify store and handled all the logistics, also sold a keycap set (DSS White on Black) through it, and plans more products.
+
+**Why I made it.** After years in the hobby and owning 14–16 keyboards, I'd built up a clear idea of what I wanted, and nothing on the market hit it. I started with the layout and core requirements: a **40%**, **split**, with **3u spacebars** and **nav columns**. Then the aesthetic: chunky, industrial-looking boards I liked. Further decisions refined the requirements from there.
+
+**Why it was sold.** It began as a board for myself. In the 40% keyboard Discord, people design and sell boards all the time; I shared mine and others were interested. Making a couple just for me would have been expensive, so a commercial run helped cover the design costs. Goal: cover costs and effectively get a couple of boards free. Achieved, with a small profit, even after the tariffs.
+
+**Sales.** About **15 sold**: 12 aluminium and brass at $550, plus about 3 3D-printed. (The resume's "12 boards" is the metal run.) Sold as a **group buy**: buyers pay up front, then the run is produced and shipped months later.
+
+**Design decisions (include the full set of parameters; they work together as a curated whole):**
+- **Nav columns: top mount.** The PCB is screwed directly to the case top. They hold rotary encoders, where flex makes no sense, and they anchor the flexible alpha section.
+- **Alphas: hybrid mount.** A "hamburger" gasket mount (rubber on both sides of the plate, for damping, cushion and no rattle) combined with **leaf-spring** cutouts: thin arms on the plate that flex, so the whole assembly moves like a suspension instead of a hard surface.
+- **One PCB, decoupled.** Rather than two PCBs with a wired link (rejected as adding complexity), thin flexible bridges connect the nav columns to the alphas, so the nav mounting doesn't affect alpha flex. Tested on prototype PCBs in 3D-printed cases and balanced so flex feels even across the alphas, with no dead or hard spots.
+- **Plate options.** **FR4** (fiberglass, the same material as the PCB, so it's made by the PCB manufacturer in the same order): firm enough for leaf springs, soft enough to feel good. **POM**: naturally flexible, so a solid plate with no leaf springs, for a different feel and sound.
+- **Connectivity.** Wired, simple USB-C only: no Bluetooth or battery. USB-C to the computer and USB-C between halves, for easy parts and matching ports at the back.
+- **Look.** Chunky and industrial.
+
+**How I worked.** I wrote a design document: the layout prototype (several iterations), the case design concept and the technical requirements. A well-known community case designer accepted it as a commission and did all the CAD under my art direction, handling tolerances, screw points and manufacturability, and introduced the manufacturer. A PCB designer from the Discord did the PCB. I coordinated the three-way back-and-forth (when one change moved something else), made final decisions and project-managed through to a successful production run.
+
+**3D-printed version (a second design iteration).** For buyers who didn't want the premium price: about 60–80% of the experience for about $50 for the case. It was designed by the PCB designer and adapted from the machined design:
+- The top prints face-down for a clean flat surface.
+- Mounting points re-engineered for different screws.
+- Fit tuned for 3D-print tolerance variance between top and bottom.
+- **Heat-set screw inserts were rejected:** hard to do reliably (one bad insert means reprinting the case) and too much to ask of buyers printing their own from the files and hardware kits sold. **Replaced with press-fit magnets** (four sets), with the depth set by the case. It's repeatable for buyers and for me; magnet type and strength took some iteration.
+
+**Hardest part.** The container-ship wait, and above all **unexpected tariffs mid-run**: about **50% of the cost of goods** on PCBs and cases, after buyers had already paid. I absorbed it rather than charge more; an optional contribution was offered and a few people chipped in.
+
+**What I'd do differently.** Nothing about the board itself; it's exactly what I wanted. Commercially, it uses too much aluminium and brass: heavy (8–10 lb), expensive to make and ship, thin margin on a small run. Next: possibly another run of this version (gauging interest), and a **"Splinter Light"** with the case designer, keeping the same parameters in a much more minimal, travel-friendly case.
