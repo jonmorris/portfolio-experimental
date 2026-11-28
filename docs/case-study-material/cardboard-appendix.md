@@ -238,6 +238,7 @@ Evidence CS lists as not captured yet (`[ ]`): phone-and-desktop hero (§1); a r
 - **Fidelity.** The official rules must be reproduced perfectly; one error breaks trust. AI tools kept truncating, summarising, copy-editing or rewriting the rules, so protections were added to lock down the official text, and they're working well.
 - **Source variety and missing originals.** Every rulebook's layout differs, some PDFs are flat images, and the original image files aren't available. There's a system for this now, still being iterated.
 - **Time.** Manual extraction was very slow. It's faster now, but every game still takes several iterations plus careful checking.
+  - Jon, looking back (2026-11-28): at this point he's not sure it wouldn't have been faster to type the rulebooks out by hand than to get AI to extract them.
 
 **What I learned / would do differently.**
 - Every version taught a lot, and the next was far better. It's been a lesson in building a whole platform from scratch, first hand-coded, then as a long-running AI-coding project.
