@@ -104,6 +104,10 @@ Two habits make the project legible over time:
 - **Research before templates.** The case-study template was rebuilt after
   checking what design hiring teams actually ask for: decisions and trade-offs
   over a tour of process. (ADR-0019; `docs/research/`.)
+- **Repeatable writing directions.** A `writing-case-studies` skill
+  (`.claude/skills/`) turns the template into a workflow: gather the raw
+  material, find the constrained "hurricane" story, ask the owner one question
+  at a time, and check the draft for invented or polished-over detail.
 
 ## 7. Saying no, on the record
 
@@ -142,3 +146,4 @@ was entirely written with AI. Is that good?"*
 | 2026-11-19 | all | Initial draft from repo history and docs |
 | 2026-11-25 | all, 6 | References moved from the decision log to ADRs; module 6 retold |
 | 2026-11-26 | 6 | Added research-led case-study template |
+| 2026-11-28 | 6 | Added the writing-case-studies skill |
